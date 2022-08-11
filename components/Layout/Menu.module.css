@@ -4,6 +4,7 @@
   border-bottom: 1px solid white;
   align-items: center;
   display: flex;
+  background-color: black;
 }
 .menu .imagen {
   margin: 0 auto;
