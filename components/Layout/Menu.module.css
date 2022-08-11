@@ -11,12 +11,11 @@
   width: 200px;
 }
 .menu_left {
-  width: 30%;
+  width: 20%;
 }
 .menu_right {
-  padding-right: 20px;
-  text-align: end;
-  width: 70%;
+  text-align: right;
+  width: 80%;
 }
 .menu .links {
   display: inline-block;
@@ -24,14 +23,13 @@
   border-right: 1px solid white;
 }
 .menu .links a {
+  margin-right: 50px;
   display: inline-block;
 }
 .menu .socials {
+  padding-right: 20px;
   padding-left: 20px;
   display: inline-block;
-}
-.menu .socials a {
-  margin: 10px;
 }
 
 .menu_right a {
