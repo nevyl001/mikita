@@ -1,0 +1,47 @@
+.menu {
+  font-weight: 300;
+  font-size: 18px;
+  border-bottom: 1px solid white;
+  align-items: center;
+  display: flex;
+}
+.menu .imagen {
+  margin: 0 auto;
+  width: 300px;
+}
+.menu_left {
+  width: 30%;
+}
+.menu_right {
+  padding-right: 20px;
+  text-align: end;
+  width: 70%;
+}
+.menu .links {
+  display: inline-block;
+  padding-right: 20px;
+  border-right: 1px solid white;
+}
+.menu .links a {
+  margin-right: 50px;
+  display: inline-block;
+}
+.menu .socials {
+  padding-left: 20px;
+  display: inline-block;
+}
+.menu .socials a {
+  margin: 5px;
+}
+
+.menu_right a {
+  padding: 50px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  border-bottom: 4px solid transparent;
+}
+.menu_right a:hover {
+  border-bottom: 4px solid darkgoldenrod;
+}
