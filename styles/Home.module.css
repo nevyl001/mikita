@@ -5,7 +5,7 @@
   position: relative;
 }
 .carousel .overlay {
-  padding-top: 150px;
+  padding-top: 30vh;
   position: absolute;
   top: 0;
   left: 0;
