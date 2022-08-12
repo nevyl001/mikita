@@ -7,20 +7,17 @@ function Layout(props) {
   return (
     <div>
       <Head>
-        <link rel="icon" href="/img/icon.jpg" />
+        <link rel="icon" href="/imgs/logoal.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
 
         <title>Mikita</title>
         <meta
           name="description"
-          content="MIKITA TOWN - SE UBICA EN UNA ZONA PRVILEGIADA QUE PERMITE TRASLADOS EN CORTO TIEMPO, GRACIAS AL POCO TRAFICO VEHICULAR."
-        />
-        <link rel="icon" href="/imgs/logoal.png" />
-        <meta
-          name="description"
           content="MIKITA TOWN - SE UBICA EN UNA ZONA PRVILEGIADA..."
         />
+        <link rel="icon" href="/imgs/logoal.png" />
+        <meta name="description" content="MIKITA TOWN" />
         <meta property="og:image" content="/imgs/logoal.png"></meta>
         <meta
           property="og:title"

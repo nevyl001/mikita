@@ -13,14 +13,22 @@ const HEADER_IMAGES = [
   {
     id: 1,
     image: "im1.jpg",
+    text1: "ESTÁS MÁS CERCA DE",
+    text2: "TU NUEVA CASA O NUEVO DEPA",
   },
   {
     id: 2,
     image: "im2.jpg",
+    text1: "EMPIEZA UN NUEVO ESTILO DE VIDA EN",
+    text2: "TU NUEVA CASA",
+    text3: "ENTREGA INMEDIATA Y PREVENTA",
   },
   {
     id: 3,
     image: "im3.jpeg",
+    text1: "EMPIEZA UN NUEVO ESTILO DE VIDA EN",
+    text2: "TU NUEVO DEPA",
+    text3: "ENTREGA INMEDIATA Y PREVENTA",
   },
 ];
 
@@ -29,6 +37,8 @@ export default function Home() {
     <div className={styles.container}>
       <main className={styles.main}>
         <div className={styles.carousel}>
+          <div className={styles.contenido}></div>
+
           <Carousel
             showStatus={false}
             autoPlay={true}
@@ -45,49 +55,29 @@ export default function Home() {
                   style={{
                     backgroundImage: `url(/imgs/${item.image})`,
                   }}
-                ></div>
+                >
+                  <div className={styles.overlay}>
+                    <div className={styles.text_header}>
+                      <Subtitle color="white">{item.text1}</Subtitle>
+                      <div className={styles.text_tittle}>
+                        <Title size="big" color="white" align="center">
+                          {item.text2}
+                        </Title>
+                      </div>
+                      <Subtitle size="medium" color="yellow">
+                        {item.text3}
+                      </Subtitle>
+                      <div className={styles.btn}>
+                        <Link href="/">
+                          <a>QUIERO SABER MÁS</a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               );
             })}
           </Carousel>
-        </div>
-        <div className={styles.text_header}>
-          <Subtitle color="white">ESTÁS MÁS CERCA DE</Subtitle>
-          <Title size="big" color="white" align="center">
-            TU NUEVA CASA O<br />
-            NUEVO DEPA
-          </Title>
-          <Link href="/">
-            <a>QUIERO SABER MÁS</a>
-          </Link>
-        </div>
-        <div className={styles.text_header}>
-          <Subtitle color="white">EMPIEZA UN NUEVO ESTILO DE VIDA EN</Subtitle>
-          <Title size="big" color="white" align="center">
-            TU NUEVA CASA
-          </Title>
-          <h1></h1>
-          <Subtitle size="medium" color="yellow">
-            ENTREGA INMEDIATA Y PREVENTA
-          </Subtitle>
-          <div className={styles.btn}>
-            <Link href="/">
-              <a>QUIERO SABER MÁS</a>
-            </Link>
-          </div>
-        </div>
-        <div className={styles.text_header}>
-          <Subtitle color="white">EMPIEZA UN NUEVO ESTILO DE VIDA EN</Subtitle>
-          <Title size="big" color="white" align="center">
-            TU NUEVA DEPA
-          </Title>
-          <Subtitle size="medium" color="yellow">
-            ENTREGA INMEDIATA Y PREVENTA
-          </Subtitle>
-          <div className={styles.btn}>
-            <Link href="/">
-              <a>QUIERO SABER MÁS</a>
-            </Link>
-          </div>
         </div>
       </main>
     </div>
