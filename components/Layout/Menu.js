@@ -14,11 +14,21 @@ function Menu() {
         </div>
         <div className={styles.menu_right}>
           <div className={styles.links}>
-            <a href="#">Home</a>
-            <a href="#">CASAS</a>
-            <a href="#">DEPAS</a>
-            <a href="#">CONTACTO</a>
-            <a href="#">PORQUÉ MIKITA</a>
+            <Link href="/">
+              <a>Home</a>
+            </Link>
+            <Link href="/">
+              <a>CASAS</a>
+            </Link>
+            <Link href="/">
+              <a>DEPAS</a>
+            </Link>
+            <Link href="/">
+              <a>CONTACTO</a>
+            </Link>
+            <Link href="/">
+              <a>PORQUÉ MIKITA</a>
+            </Link>
           </div>
           <div className={styles.socials}>
             <a href="#" title="whatsapp">
@@ -87,66 +97,6 @@ function Menu() {
           </div>
         </div>
       </nav>
-      {/* <div
-        className={styles.menu_desktop}
-        onMouseLeave={submenuInactiveHandler}
-      >
-        <div className={styles.container}>
-          <div className={styles.menu_master}>
-            <div className={styles.menu_top}>
-              <div className={styles.menu_desktop_left}>
-                <div
-                  className={styles.img}
-                  onMouseEnter={submenuInactiveHandler}
-                >
-                  <Link href="/">
-                    <a>
-                      <Image alt="logo" src="/img/" width={157} height={90} />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-              <div className={styles.menu_desktop_right}>
-                <Link href="/">
-                  <a
-                    className={styles.link}
-                    onMouseEnter={submenuInactiveHandler}
-                  >
-                    HOME
-                  </a>
-                </Link>
-                <Link href="/nosotros">
-                  <a
-                    className={styles.link}
-                    onMouseEnter={submenuInactiveHandler}
-                  >
-                    NOSOTROS
-                  </a>
-                </Link>
-                <a className={styles.link} onMouseEnter={submenuActiveHandler}>
-                  SERVICIOS
-                </a>
-                <Link href="/clientes">
-                  <a
-                    className={styles.link}
-                    onMouseEnter={submenuInactiveHandler}
-                  >
-                    CLIENTES
-                  </a>
-                </Link>
-                <Link href="/contacto">
-                  <a
-                    className={styles.link}
-                    onMouseEnter={submenuInactiveHandler}
-                  >
-                    CONTACTO
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
     </Fragment>
   );
 }

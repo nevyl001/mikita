@@ -1,10 +1,15 @@
 .menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   font-weight: 300;
+  z-index: 999;
   font-size: 18px;
   border-bottom: 1px solid white;
   align-items: center;
   display: flex;
-  background-color: black;
+  background-color: transparent;
 }
 .menu .imagen {
   margin: 0 auto;
@@ -33,7 +38,7 @@
 }
 
 .menu_right a {
-  padding: 50px 10px;
+  padding: 30px 10px;
   text-decoration: none;
   text-transform: uppercase;
   color: white;

@@ -16,15 +16,15 @@ function Layout(props) {
           name="description"
           content="MIKITA TOWN - SE UBICA EN UNA ZONA PRVILEGIADA QUE PERMITE TRASLADOS EN CORTO TIEMPO, GRACIAS AL POCO TRAFICO VEHICULAR."
         />
-        <link rel="icon" href="/imgs/milogo.png" />
+        <link rel="icon" href="/imgs/logoal.png" />
         <meta
           name="description"
-          content="MIKITA TOWN - SE UBICA EN UNA ZONA PRVILEGIADA QUE PERMITE TRASLADOS EN CORTO TIEMPO, GRACIAS AL POCO TRAFICO VEHICULAR."
+          content="MIKITA TOWN - SE UBICA EN UNA ZONA PRVILEGIADA..."
         />
-        <meta property="og:image" content="/imgs/milogo.png"></meta>
+        <meta property="og:image" content="/imgs/logoal.png"></meta>
         <meta
           property="og:title"
-          content="MIKITA TOWN - SE UBICA EN UNA ZONA PRVILEGIADA QUE PERMITE TRASLADOS EN CORTO TIEMPO, GRACIAS AL POCO TRAFICO VEHICULAR."
+          content="MIKITA TOWN - PERMITE TRASLADOS EN CORTO TIEMPO, GRACIAS AL POCO TRAFICO VEHICULAR."
         ></meta>
         <meta
           property="og:description"
