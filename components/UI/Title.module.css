@@ -18,18 +18,19 @@
 .size_medium {
   font-size: 45px;
   line-height: 45px;
-  font-weight: 700;
 }
 .size_small {
-  font-size: 28px;
-  line-height: 28px;
-  font-weight: 700;
+  font-size: 23px;
+  letter-spacing: 2px;
+  font-weight: bold;
 }
 
 .color_white {
   color: white;
 }
-
+.color_yellow {
+  color: #ffcf00;
+}
 @media (max-width: 1080px) {
   .size_big {
     font-size: 30px;

@@ -5,9 +5,14 @@
   letter-spacing: 8px;
 }
 .size_medium {
-  font-size: 24px;
-  letter-spacing: 10px;
+  font-size: 21px;
+  letter-spacing: 12px;
 }
+.size_medium_1 {
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
 .color_white {
   color: white;
 }
