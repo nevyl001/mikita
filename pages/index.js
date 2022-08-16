@@ -221,10 +221,10 @@ export default function Home() {
               </Title>
               <Paragraph>CONCEPTO MINIMALISTA Y MUY AMPLIO.</Paragraph>
               <Paragraph>
-                TE BRINDA DOS EXCELENTES OPCIONES, YA QUE, PUEDES ELEGIR "UN
-                PISO" CON AMPLIO ESPACIO PARA JARDÍN Y TERRAZA O &quot;DOBLE
-                ALTURA&quot; CON AMPLIA TERRAZA. IDEAL PARA INVERSIÓN CON
-                RETORNO O PATRIMONIAL.
+                TE BRINDA DOS EXCELENTES OPCIONES, YA QUE, PUEDES ELEGIR
+                &quot;UN PISO&quot; CON AMPLIO ESPACIO PARA JARDÍN Y TERRAZA O
+                &quot;DOBLE ALTURA&quot; CON AMPLIA TERRAZA. IDEAL PARA
+                INVERSIÓN CON RETORNO O PATRIMONIAL.
               </Paragraph>
             </div>
             <div className={styles.btn}>
