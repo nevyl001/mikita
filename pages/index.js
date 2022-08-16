@@ -378,6 +378,30 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className={styles.coments}>
+          <div className={styles.imagen}>
+            <div
+              className={styles.item1}
+              style={{
+                backgroundImage: `url(/imgs/im1.jpg)`,
+              }}
+            ></div>
+            <div className={styles.overlay}></div>
+          </div>
+          <div className={styles.text}>
+            <div className={styles.coment}>
+              <Paragraph>
+                Me encanta vivir aquí, hemos encontrado un lugar donde nuestra
+                familia disfruta del entorno y la tranquilidad. A nuestros hijos
+                les encanta nadar en la alberca.
+              </Paragraph>
+            </div>
+            <Subtitle size="small" color="white">
+              Juan Antonio Ramírez.
+            </Subtitle>
+            <Paragraph>Residente</Paragraph>
+          </div>
+        </div>
       </main>
     </div>
   );

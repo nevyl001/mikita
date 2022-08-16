@@ -285,3 +285,36 @@
   background-position: center center;
   background-size: cover;
 }
+.coments {
+  margin: 50px 0;
+  background-color: #212121;
+  gap: 20px;
+  display: flex;
+}
+.coments .imagen {
+  position: relative;
+  width: 40%;
+}
+.coments .imagen .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 900;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+.coments .text {
+  padding: 80px 20px;
+  width: 60%;
+}
+.coments .text .coment {
+  padding-right: 30px;
+  padding-bottom: 60px;
+}
+.coments .item1 {
+  height: 100vh;
+  height: 400px;
+  background-position: bottom center;
+  background-size: cover;
+}
