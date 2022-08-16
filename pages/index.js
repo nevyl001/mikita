@@ -343,6 +343,41 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <div className={styles.images_box3}>
+          <div className={styles.image_box_up}>
+            <div
+              className={styles.image_item_1}
+              style={{
+                backgroundImage: `url(/imgs/imright.png)`,
+              }}
+            ></div>
+          </div>
+          <div className={styles.images_box_down}>
+            <div className={styles.images_box_left}>
+              <div
+                className={styles.image_item_1}
+                style={{
+                  backgroundImage: `url(/imgs/asado.png)`,
+                }}
+              ></div>
+            </div>
+            <div className={styles.images_box_right}>
+              <div
+                className={styles.image_item_2}
+                style={{
+                  backgroundImage: `url(/imgs/juegos.png)`,
+                }}
+              ></div>
+              <div
+                className={styles.image_item_2}
+                style={{
+                  backgroundImage: `url(/imgs/cine.png)`,
+                }}
+              ></div>
+            </div>
+          </div>
+        </div>
       </main>
     </div>
   );
