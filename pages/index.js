@@ -188,8 +188,8 @@ export default function Home() {
               <Paragraph>CONCEPTO MINIMALISTA, ROBUSTO Y ELEGANTE.</Paragraph>
               <Paragraph>
                 SE ADAPTA AL ESTILO DE VIDA DE TU FAMILIA , YA QUE, PUEDES
-                ELEGIR "ÁREA PLUS" PARA USARLO COMO CUARTO DE ESTUDIO, HOMME
-                OFFICE, ETC, O "COCINA MEGA" CON BARRA AL CENTRO, TIPO ISLA.
+                ELEGIR &quot;ÁREA PLUS&quot; PARA USARLO COMO CUARTO DE ESTUDIO,
+                HOMME OFFICE, ETC, O COCINA MEGA CON BARRA AL CENTRO, TIPO ISLA.
               </Paragraph>
             </div>
             <div className={styles.btn}>
@@ -222,9 +222,9 @@ export default function Home() {
               <Paragraph>CONCEPTO MINIMALISTA Y MUY AMPLIO.</Paragraph>
               <Paragraph>
                 TE BRINDA DOS EXCELENTES OPCIONES, YA QUE, PUEDES ELEGIR "UN
-                PISO" CON AMPLIO ESPACIO PARA JARDÍN Y TERRAZA O "DOBLE ALTURA"
-                CON AMPLIA TERRAZA. IDEAL PARA INVERSIÓN CON RETORNO O
-                PATRIMONIAL.
+                PISO" CON AMPLIO ESPACIO PARA JARDÍN Y TERRAZA O &quot;DOBLE
+                ALTURA&quot; CON AMPLIA TERRAZA. IDEAL PARA INVERSIÓN CON
+                RETORNO O PATRIMONIAL.
               </Paragraph>
             </div>
             <div className={styles.btn}>
