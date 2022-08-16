@@ -30,6 +30,13 @@ const HEADER_IMAGES = [
     text2: "TU NUEVO DEPA",
     text3: "ENTREGA INMEDIATA Y PREVENTA",
   },
+  {
+    id: 4,
+    image: "pici1.jpeg",
+    text1: "EMPIEZA UN NUEVO ESTILO DE VIDA EN",
+    text2: "MIKITA TOWN",
+    text3: "ENTREGA INMEDIATA Y PREVENTA",
+  },
 ];
 
 export default function Home() {
@@ -162,6 +169,16 @@ export default function Home() {
           <Title size="medium" color="white">
             ELIGE TU ESTILO
           </Title>
+          <div className={styles.town_logo}>
+            <div className={styles.logo}>
+              <Image
+                src="/imgs/logomi.png"
+                alt="im-logo"
+                width={1080}
+                height={1080}
+              />
+            </div>
+          </div>
         </div>
         <div className={styles.elige}>
           <div className={styles.elige_left}>
@@ -234,7 +251,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
         <div className={styles.video}>
           <div className={styles.imagen}>
             <Image
@@ -257,7 +273,20 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* MikiTown */}
+
         <div className={styles.town}>
+          <div className={styles.town_logo}>
+            <div className={styles.logo}>
+              <Image
+                src="/imgs/logomi.png"
+                alt="im-logo"
+                width={1080}
+                height={1080}
+              />
+            </div>
+          </div>
           <div className={styles.town_text}>
             <Title size="medium" color="white">
               MIKITA TOWN
@@ -267,49 +296,56 @@ export default function Home() {
             </Subtitle>
           </div>
         </div>
-        <div className={styles.images_box}>
+
+        {/* image content 0 */}
+
+        <div className={styles.image_container}>
           <div
-            className={styles.image_item1}
+            className={styles.imagen_item1}
             style={{
               backgroundImage: `url(/imgs/pici.jpeg)`,
             }}
           ></div>
           <div
-            className={styles.image_item2}
+            className={styles.imagen_item2}
             style={{
               backgroundImage: `url(/imgs/gym.jpeg)`,
             }}
           ></div>
         </div>
 
-        <div className={styles.images_box1}>
+        {/*  imante content 1  */}
+
+        <div className={styles.image_container1}>
           <div className={styles.box_left}>
-            <div className={styles.images_box_1}>
-              <div
-                className={styles.image_item_1}
-                style={{
-                  backgroundImage: `url(/imgs/bar1.jpeg)`,
-                }}
-              ></div>
-            </div>
-            <div className={styles.images_box_2}>
-              <div
-                className={styles.image_item_2}
-                style={{
-                  backgroundImage: `url(/imgs/gym1.jpeg)`,
-                }}
-              ></div>
-              <div
-                className={styles.image_item_2}
-                style={{
-                  backgroundImage: `url(/imgs/gym2.jpeg)`,
-                }}
-              ></div>
+            <div
+              className={styles.imagen_item1}
+              style={{
+                backgroundImage: `url(/imgs/bar1.jpeg)`,
+              }}
+            ></div>
+            <div className={styles.box_in}>
+              <div className={styles.box_in_left}>
+                <div
+                  className={styles.imagen_item2}
+                  style={{
+                    backgroundImage: `url(/imgs/gym1.jpeg)`,
+                  }}
+                ></div>
+              </div>
+              <div className={styles.box_in_right}>
+                <div
+                  className={styles.imagen_item2}
+                  style={{
+                    backgroundImage: `url(/imgs/gym2.jpeg)`,
+                  }}
+                ></div>
+              </div>
             </div>
           </div>
-          <div className={styles.box_rigth}>
+          <div className={styles.box_right}>
             <div
-              className={styles.image_item_1}
+              className={styles.imagen_item4}
               style={{
                 backgroundImage: `url(/imgs/bar2.jpeg)`,
               }}
@@ -317,67 +353,73 @@ export default function Home() {
           </div>
         </div>
 
-        <div className={styles.images_box2}>
-          <div className={styles.box_left}>
-            <div className={styles.images_box_2}>
-              <div
-                className={styles.image_item_2}
-                style={{
-                  backgroundImage: `url(/imgs/pici1.jpeg)`,
-                }}
-              ></div>
-              <div
-                className={styles.image_item_2}
-                style={{
-                  backgroundImage: `url(/imgs/sillon.jpeg)`,
-                }}
-              ></div>
-            </div>
-            <div className={styles.images_box_1}>
-              <div
-                className={styles.image_item_1}
-                style={{
-                  backgroundImage: `url(/imgs/balcon.png)`,
-                }}
-              ></div>
-            </div>
-          </div>
+        {/*  imante content 2  */}
+
+        <div className={styles.image_container2}>
+          <div
+            className={styles.imagen_item1}
+            style={{
+              backgroundImage: `url(/imgs/pici1.jpeg)`,
+            }}
+          ></div>
+          <div
+            className={styles.imagen_item2}
+            style={{
+              backgroundImage: `url(/imgs/sillon.jpeg)`,
+            }}
+          ></div>
+        </div>
+        {/*  imante content 3 */}
+
+        <div className={styles.image_container3}>
+          <div
+            className={styles.imagen_item1}
+            style={{
+              backgroundImage: `url(/imgs/balcon.png)`,
+            }}
+          ></div>
         </div>
 
-        <div className={styles.images_box3}>
-          <div className={styles.image_box_up}>
+        {/*  imante content 4 */}
+
+        <div className={styles.image_container4}>
+          <div
+            className={styles.imagen_item1}
+            style={{
+              backgroundImage: `url(/imgs/imright.png)`,
+            }}
+          ></div>
+        </div>
+
+        {/*  imante content 5 */}
+
+        <div className={styles.image_container5}>
+          <div className={styles.box_left}>
             <div
-              className={styles.image_item_1}
+              className={styles.imagen_item1}
               style={{
-                backgroundImage: `url(/imgs/imright.png)`,
+                backgroundImage: `url(/imgs/asado.png)`,
               }}
             ></div>
           </div>
-          <div className={styles.images_box_down}>
-            <div className={styles.images_box_left}>
-              <div
-                className={styles.image_item_1}
-                style={{
-                  backgroundImage: `url(/imgs/asado.png)`,
-                }}
-              ></div>
-            </div>
-            <div className={styles.images_box_right}>
-              <div
-                className={styles.image_item_2}
-                style={{
-                  backgroundImage: `url(/imgs/juegos.png)`,
-                }}
-              ></div>
-              <div
-                className={styles.image_item_2}
-                style={{
-                  backgroundImage: `url(/imgs/cine.png)`,
-                }}
-              ></div>
-            </div>
+          <div className={styles.box_right}>
+            <div
+              className={styles.imagen_item2}
+              style={{
+                backgroundImage: `url(/imgs/juegos.png)`,
+              }}
+            ></div>
+            <div
+              className={styles.imagen_item3}
+              style={{
+                backgroundImage: `url(/imgs/cine.png)`,
+              }}
+            ></div>
           </div>
         </div>
+
+        {/* comments */}
+
         <div className={styles.coments}>
           <div className={styles.imagen}>
             <div
@@ -396,10 +438,10 @@ export default function Home() {
                 les encanta nadar en la alberca.
               </Paragraph>
             </div>
-            <Subtitle size="small" color="white">
-              Juan Antonio Ramírez.
-            </Subtitle>
-            <Paragraph>Residente</Paragraph>
+            <div className={styles.coment_person}>
+              <Paragraph size="big">Juan Antonio Ramírez.</Paragraph>
+              <Paragraph>Residente</Paragraph>
+            </div>
           </div>
         </div>
       </main>
