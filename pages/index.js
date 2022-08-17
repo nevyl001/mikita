@@ -504,6 +504,20 @@ export default function Home() {
             </div>
           </div>
         </div>
+        {/* desarrollado por */}
+        <div className={styles.desarrollo}>
+          <div className={styles.imagen}>
+            <Image
+              src="/imgs/logoal.png"
+              alt="im-logo"
+              width={845}
+              height={215}
+            />
+          </div>
+          <div className={styles.text_box}>
+            <Paragraph>Desarrollado por</Paragraph>
+          </div>
+        </div>
       </main>
     </div>
   );

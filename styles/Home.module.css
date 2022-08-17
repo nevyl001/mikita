@@ -334,14 +334,15 @@
 /* comments*/
 
 .coments {
-  margin: 50px 0;
+  margin: 30px 0;
   background-color: #212121;
-  gap: 20px;
+  gap: 10px;
   display: flex;
 }
 .coments .imagen {
   position: relative;
-  width: 40%;
+  width: 50%;
+  height: 400px;
 }
 .coments .imagen .overlay {
   position: absolute;
@@ -353,7 +354,7 @@
   height: 100%;
 }
 .coments .text {
-  padding: 80px 10px;
+  padding: 20px 10px;
   width: 60%;
 }
 .text .coment .stars {
@@ -370,8 +371,21 @@
   padding-top: 80px;
 }
 .coments .item1 {
-  height: 100vh;
+  width: 100%;
   height: 400px;
   background-position: bottom center;
   background-size: cover;
+}
+/* desarrollo */
+.desarrollo {
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 200px;
+  gap: 10px;
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+}
+.desarrollo .imagen {
+  width: 25%;
 }
