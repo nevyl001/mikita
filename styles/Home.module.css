@@ -171,7 +171,7 @@
   display: flex;
 }
 .video_text {
-  text-align: center;
+  align-items: center;
   display: flex;
   padding: 50px 0;
   gap: 20px;
@@ -181,6 +181,7 @@
   width: 50%;
 }
 .video_text .text {
+  align-items: bottom;
   text-align: left;
   width: 50%;
 }
@@ -383,12 +384,12 @@
 .desarrollo {
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
   width: 50%;
   margin: 0 auto;
   margin-bottom: 75px;
   display: flex;
 }
 .desarrollo .imagen {
-  width: 35%;
+  width: 25%;
 }

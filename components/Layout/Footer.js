@@ -21,7 +21,6 @@ const Footer = () => {
               />
             </div>
           </div>
-
           <Title size="medium" color="white">
             AGENDA UNA CITA
           </Title>
