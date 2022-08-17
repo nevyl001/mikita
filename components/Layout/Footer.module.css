@@ -37,6 +37,7 @@
   display: block;
 }
 .form_footer .form_box input::placeholder {
+  padding-left: 10px;
   font-family: "Antonio", sans-serif;
   color: white;
 }
