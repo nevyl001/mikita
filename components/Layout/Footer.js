@@ -51,7 +51,7 @@ const Footer = () => {
               />
               <div className={styles.btn}>
                 <Link href="/">
-                  <a>ENVIAR</a>
+                  <Button>ENVIAR</Button>
                 </Link>
               </div>
             </form>

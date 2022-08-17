@@ -32,21 +32,15 @@
   color: white;
   background-color: #212121;
   width: 100%;
-  margin: 15px auto;
+  margin: 20px auto;
   padding: 10px 0;
   display: block;
 }
+
 .form_footer .form_box input::placeholder {
   padding-left: 10px;
   font-family: "Antonio", sans-serif;
   color: white;
-}
-.form_footer .form_box .btn {
-  padding: 20px 0;
-}
-.form_footer .form_box .btn a {
-  padding: 8px 80px;
-  border: 1px solid #ffcf00;
 }
 .foo_down {
   margin: 50px 0;
@@ -59,6 +53,11 @@
 .foo_down .btn a {
   padding: 8px 80px;
   border: 1px solid #ffcf00;
+}
+.foo_down .btn a:hover {
+  background-color: #ffcf00;
+  color: black;
+  transition-duration: 0.5s;
 }
 .foo_down .direccion {
   margin: 0 auto;
