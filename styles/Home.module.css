@@ -86,9 +86,10 @@
 }
 .elige {
   margin-bottom: 100px;
-  gap: 50px;
+  margin: 0 auto;
+  gap: 25px;
+  width: 50%;
   display: flex;
-  padding: 20px 350px;
 }
 .town_logo {
   position: absolute;
@@ -146,11 +147,12 @@
 }
 
 .elige .text {
-  padding: 10px 30px;
+  padding: 40px 30px;
   background-color: #212121;
 }
 
 .elige .btn {
+  margin-bottom: 100px;
   margin-top: 10px;
   margin-left: 20px;
   color: white;
@@ -354,6 +356,12 @@
   padding: 80px 10px;
   width: 60%;
 }
+.text .coment .stars {
+  padding-bottom: 15px;
+  padding-right: 10px;
+  display: inline-block;
+}
+
 .coments .text .coment {
   padding-right: 200px;
   padding-top: 40px;

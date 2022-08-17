@@ -1,12 +1,13 @@
 .text {
   font-size: 18px;
-  margin: 0;
+  margin: 20px 0;
   color: white;
 }
 .size_small {
   font-size: 12px;
 }
 .size_big {
+  margin: 0;
   font-size: 20px;
   font-weight: 700;
 }
