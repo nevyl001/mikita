@@ -88,32 +88,34 @@ export default function Home() {
         </div>
         <div className={styles.porque}>
           <div className={styles.porque_left}>
-            <Subtitle size="medium_1" color="yellow">
-              ¿PORQUÉ MIKITA TOWN?
-            </Subtitle>
-            <Paragraph>
-              MIKITA TOWN SE UBICA EN UNA ZONA PRVILEGIADA QUE PERMITE TRASLADOS
-              EN CORTO TIEMPO, GRACIAS AL POCO TRAFICO VEHICULAR.
-            </Paragraph>
-            <Paragraph>
-              SE ENCUENTRA A SOLO 10 MINUTOS DE ZONA COMERCIAL CON ALTA DEMANDA,
-              ESCUELAS, SUPERMERCADOS Y HOSPITALES.
-            </Paragraph>
-            <Paragraph>LOCALIZADO EN SAN ISIDRO JURIQUILLA, QRO.</Paragraph>
-            <Paragraph>
-              UNA ZONA EMERGENTE QUE GARANTIZA EL RETORNO PARA LOS
-              INVERSIONISTAS Y UN PATRIMONIO SÓLIDO PARA CUALQUIER FAMILIA.
-            </Paragraph>
-            <Paragraph>
-              EL DESARROLLO SE DEFERENCÍA POR SU PROPUESTA INNOVADORA EN
-              ARQUITECTURA, DESTACANDO SU DISEÑO MINIMALISTA, ESPACIOS AMPLIOS E
-              ILUMINADOS Y ACABADOS ÚNICOS DE LARGA VIDA.
-            </Paragraph>
-            <Paragraph>
-              EL CONJUNTO DE AMENIDADES Y ATRIBUTOS DE CADA MODELO ENTRE CASA Y
-              DEPA, FACILITAN EL ESTILO DE VIDA DE LAS PERSONAS, CONSIGUENDO
-              ASÍ, ESTABILIDAD Y UN ENTORNO EN ARMONÍA.
-            </Paragraph>
+            <div className={styles.text}>
+              <Subtitle size="medium_1" color="yellow">
+                ¿PORQUÉ MIKITA TOWN?
+              </Subtitle>
+              <Paragraph>
+                MIKITA TOWN SE UBICA EN UNA ZONA PRVILEGIADA QUE PERMITE
+                TRASLADOS EN CORTO TIEMPO, GRACIAS AL POCO TRAFICO VEHICULAR.
+              </Paragraph>
+              <Paragraph>
+                SE ENCUENTRA A SOLO 10 MINUTOS DE ZONA COMERCIAL CON ALTA
+                DEMANDA, ESCUELAS, SUPERMERCADOS Y HOSPITALES.
+              </Paragraph>
+              <Paragraph>LOCALIZADO EN SAN ISIDRO JURIQUILLA, QRO.</Paragraph>
+              <Paragraph>
+                UNA ZONA EMERGENTE QUE GARANTIZA EL RETORNO PARA LOS
+                INVERSIONISTAS Y UN PATRIMONIO SÓLIDO PARA CUALQUIER FAMILIA.
+              </Paragraph>
+              <Paragraph>
+                EL DESARROLLO SE DEFERENCÍA POR SU PROPUESTA INNOVADORA EN
+                ARQUITECTURA, DESTACANDO SU DISEÑO MINIMALISTA, ESPACIOS AMPLIOS
+                E ILUMINADOS Y ACABADOS ÚNICOS DE LARGA VIDA.
+              </Paragraph>
+              <Paragraph>
+                EL CONJUNTO DE AMENIDADES Y ATRIBUTOS DE CADA MODELO ENTRE CASA
+                Y DEPA, FACILITAN EL ESTILO DE VIDA DE LAS PERSONAS, CONSIGUENDO
+                ASÍ, ESTABILIDAD Y UN ENTORNO EN ARMONÍA.
+              </Paragraph>
+            </div>
           </div>
           <div className={styles.porque_right}>
             <div className={styles.imagen}>

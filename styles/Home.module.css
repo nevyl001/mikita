@@ -29,11 +29,9 @@
   width: 500px;
   margin: auto;
 }
-
 .text_header .btn {
   padding: 80px 0;
 }
-
 .btn a {
   padding: 15px 80px;
   border: 1px solid #ffcf00;
@@ -42,8 +40,10 @@
 /* seccion porque */
 
 .porque {
+  align-items: center;
   gap: 20px;
-  padding: 0 75px;
+  width: 90%;
+  margin: 0 auto;
   padding-top: 100px;
   display: flex;
 }
@@ -52,6 +52,9 @@
 }
 .porque_right {
   width: 50%;
+}
+.porque_right .imagen {
+  width: 100%;
 }
 .porque_down {
   text-align: center;
@@ -380,12 +383,12 @@
 .desarrollo {
   justify-content: center;
   align-items: center;
-  padding-bottom: 200px;
   gap: 10px;
-  margin: 0 auto;
   width: 50%;
+  margin: 0 auto;
+  margin-bottom: 75px;
   display: flex;
 }
 .desarrollo .imagen {
-  width: 25%;
+  width: 35%;
 }
