@@ -53,9 +53,6 @@
 .porque_right {
   width: 50%;
 }
-.porque_right .imagen {
-  width: 100%;
-}
 .porque_down {
   text-align: center;
   padding: 30px 0;
@@ -66,6 +63,9 @@
 .porque_down .text_1 {
   padding-right: 10px;
   border-right: 1px solid white;
+}
+.porque .text h2 {
+  font-size: 28px;
 }
 .text_in {
   padding-bottom: 5px;

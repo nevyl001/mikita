@@ -133,7 +133,7 @@ export default function Home() {
             <Title size="small" color="white">
               122 FAMILIAS
             </Title>
-            <Subtitle size="small" color="yellow">
+            <Subtitle size="medium_1" color="yellow">
               SATISFECHAS
             </Subtitle>
           </div>
