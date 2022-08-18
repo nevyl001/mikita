@@ -1,0 +1,128 @@
+.main {
+  background-color: black;
+}
+.casas {
+}
+
+.images .imagen_1 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-position: bottom center;
+  background-size: cover;
+}
+.header .overlay {
+  text-align: center;
+  padding-top: 25vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 900;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+.header .overlay .text h1 {
+  margin-bottom: 70px;
+}
+.header .overlay .arrow {
+  margin-top: 25px;
+}
+.section_1 {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  padding: 20px 20px;
+}
+.section_1 .text_left {
+  width: 80%;
+}
+
+.section_1 .text_right {
+  width: 20%;
+  justify-content: space-between;
+  display: flex;
+}
+.section_1 .text_right .top_text1 {
+  padding: 5px 32px;
+  color: #ffcf00;
+  background-color: #212122;
+}
+.section_1 .text_right .top_text2 {
+  padding: 5px 32px;
+  color: black;
+  background-color: #ffcf00;
+}
+.section_2 {
+  padding: 0 20px;
+  display: flex;
+}
+.section_2 .images {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-right: 10px;
+}
+.section_2 .box_left {
+  width: 80%;
+}
+.section_2 .box_left .text {
+  padding-right: 10px;
+}
+.section_2 .box_right {
+  width: 20%;
+}
+
+.section_3 {
+  margin-bottom: 100px;
+  padding: 20px 20px;
+  gap: 10px;
+  display: flex;
+}
+.section_3 .box_left {
+  position: relative;
+  width: 80%;
+}
+.section_3 .box_right {
+  width: 20%;
+}
+.section_3 .box_left .imagen_1 {
+  height: 400px;
+  background-position: center center;
+  background-size: cover;
+}
+.section_3 .box_left .overlay {
+  position: absolute;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 900;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+.section_3 .text span {
+  color: #ffcf00;
+}
+
+.section_3 .box_right {
+  padding: 20px 5px;
+  background-color: #212122;
+}
+
+.section_3 .box_right .btn {
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding: 15px 0;
+  letter-spacing: 2px;
+  border: 1px solid #ffcf00;
+}
+.section_3 .box_right .whats_icon {
+  padding: 50px 0;
+  text-align: center;
+}

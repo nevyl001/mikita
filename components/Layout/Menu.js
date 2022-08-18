@@ -17,7 +17,7 @@ function Menu() {
             <Link href="/">
               <a>Home</a>
             </Link>
-            <Link href="/">
+            <Link href="/casas">
               <a>CASAS</a>
             </Link>
             <Link href="/">
