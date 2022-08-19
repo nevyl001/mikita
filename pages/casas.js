@@ -105,10 +105,11 @@ export default function casas() {
           </div>
           <div className={styles.text}>
             <Paragraph>
-              EL MODELO "AREA PLUS" SE ADAPTA AL ESTILO DE VIDA ACTUAL YA QUE,
-              SU VALOR AGREGADO OFRECE UN ESPACIO ADICIONAL EN PLANTA BAJA QUE
-              PUEDES USAR COMO, CUARTO DE ESTUDIO O HOME OFFICE. EL ÁREA PLUS TE
-              BRINDA LA LIBERTAD DE DARLE EL USO QUE MÁS TE CONVENGA.
+              EL MODELO &quot;AREA PLUS&quot; SE ADAPTA AL ESTILO DE VIDA ACTUAL
+              YA QUE, SU VALOR AGREGADO OFRECE UN ESPACIO ADICIONAL EN PLANTA
+              BAJA QUE PUEDES USAR COMO, CUARTO DE ESTUDIO O HOME OFFICE. EL
+              ÁREA PLUS TE BRINDA LA LIBERTAD DE DARLE EL USO QUE MÁS TE
+              CONVENGA.
             </Paragraph>
           </div>
         </div>
