@@ -204,3 +204,126 @@
   padding: 15px 0;
   text-align: center;
 }
+
+.section_6 {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  padding: 20px 20px;
+}
+.section_6 .text_left {
+  width: 80%;
+}
+
+.section_6 .text_right {
+  width: 20%;
+  justify-content: space-between;
+  display: flex;
+}
+.section_6 .text_right .top_text1 {
+  padding: 5px 32px;
+  color: #ffcf00;
+  background-color: #212122;
+}
+.section_6 .text_right .top_text2 {
+  padding: 5px 32px;
+  color: black;
+  background-color: #ffcf00;
+}
+
+.section_7 {
+  padding: 0 20px;
+  display: flex;
+}
+.section_7 .images {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-right: 10px;
+}
+.section_7 .box_left {
+  width: 80%;
+}
+.section_7 .box_left .text {
+  padding-right: 10px;
+}
+.section_7 .box_right {
+  width: 20%;
+}
+
+.coments {
+  background-color: #212121;
+  gap: 10px;
+  display: flex;
+}
+.coments .imagen {
+  position: relative;
+  width: 50%;
+  height: 400px;
+}
+.coments .imagen .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 900;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+.coments .text {
+  padding: 20px 10px;
+  width: 60%;
+}
+.text .coment .stars {
+  padding-bottom: 15px;
+  padding-right: 10px;
+  display: inline-block;
+}
+
+.coments .text .coment {
+  padding-right: 200px;
+  padding-top: 40px;
+}
+.coments .text .coment_person {
+  padding-top: 80px;
+}
+.coments .item1 {
+  width: 100%;
+  height: 400px;
+  background-position: bottom center;
+  background-size: cover;
+}
+/* desarrollo */
+.desarrollo {
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  display: flex;
+}
+.desarrollo .imagen {
+  width: 25%;
+}
+
+.section_10 {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.section_10 .text h2 {
+  padding: 30px 0;
+  font-size: 30px;
+  font-weight: 300;
+}
+.section_10 .imagen {
+  padding: 50px 0;
+  margin: 0 auto;
+  width: 30%;
+}
+.section_10 .text p {
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 5px;
+}
