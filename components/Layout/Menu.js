@@ -26,7 +26,7 @@ function Menu() {
             <Link href="/contacto">
               <a>CONTACTO</a>
             </Link>
-            <Link href="/">
+            <Link href="/#porque">
               <a>PORQUÉ MIKITA</a>
             </Link>
           </div>

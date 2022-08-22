@@ -85,7 +85,7 @@ export default function Home() {
           })}
         </Carousel>
       </div>
-      <div className={styles.porque}>
+      <div id="porque" className={styles.porque}>
         <div className={styles.porque_left}>
           <div className={styles.text}>
             <Subtitle size="medium_1" color="yellow">
