@@ -20,7 +20,7 @@ function Menu() {
             <Link href="/casas">
               <a>CASAS</a>
             </Link>
-            <Link href="/">
+            <Link href="/depas">
               <a>DEPAS</a>
             </Link>
             <Link href="/">
