@@ -124,7 +124,7 @@ export default function Home() {
             muted
             style={{ width: "100%", height: "400px" }}
           >
-            <source src="/imgs/vipor.MP4" />
+            <source src="/imgs/video2.mp4" />
           </video>
         </div>
       </div>
