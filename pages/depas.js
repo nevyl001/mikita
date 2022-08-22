@@ -11,9 +11,9 @@ import styles from "../styles/depas.module.css";
 
 const HEADER_IMAGES = [{}];
 
-export default function casas() {
+export default function depas() {
   return (
-    <div className={styles.casas}>
+    <div className={styles.depas}>
       <div className={styles.header}>
         <div className={styles.images}>
           <div

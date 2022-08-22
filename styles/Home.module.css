@@ -167,9 +167,28 @@
   color: white;
 }
 .video .imagen {
-  height: 600px;
-  display: flex;
+  position: relative;
+  height: 500px;
 }
+.video .item1 {
+  width: 100%;
+  height: 500px;
+  background-position: center center;
+  background-size: cover;
+}
+.video .imagen .overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 900;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
 .video_text {
   align-items: center;
   display: flex;

@@ -117,14 +117,15 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.porque_right}>
-          <div className={styles.imagen}>
-            <Image
-              src="/imgs/imright.png"
-              alt="im-video"
-              width={1920}
-              height={1080}
-            />
-          </div>
+          <video
+            autoPlay
+            loop
+            controls
+            muted
+            style={{ width: "100%", height: "400px" }}
+          >
+            <source src="/imgs/vipor.MP4" />
+          </video>
         </div>
       </div>
       <div className={styles.porque_down}>
@@ -254,12 +255,19 @@ export default function Home() {
       </div>
       <div className={styles.video}>
         <div className={styles.imagen}>
-          <Image
-            src="/imgs/imright.png"
-            alt="im-video"
-            width={1920}
-            height={1080}
-          />
+          <div
+            className={styles.item1}
+            style={{
+              backgroundImage: `url(/imgs/provid.jpg)`,
+            }}
+          ></div>
+          <div className={styles.overlay}>
+            <div className={styles.vid_text_in}>
+              <Title size="medium" color="white">
+                CONCEPTO MINIMALISTA, ROBUSTO Y ELEGANTE
+              </Title>
+            </div>
+          </div>
         </div>
         <div className={styles.video_text}>
           <div className={styles.btn}>

@@ -1,0 +1,89 @@
+.main {
+  background-color: black;
+}
+
+.section_10 {
+  text-align: center;
+  margin: 200px 0;
+}
+
+.section_10 .text h2 {
+  padding: 30px 0;
+  font-size: 30px;
+  font-weight: 300;
+}
+.section_10 .imagen {
+  padding: 50px 0;
+  margin: 0 auto;
+  width: 30%;
+}
+.section_10 .text p {
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 5px;
+}
+
+.section_DB {
+  display: flex;
+  padding: 0 20px;
+  margin-bottom: 100px;
+}
+
+.section_DB .box_left {
+  width: 80%;
+}
+.section_DB .box_left .title {
+  padding-left: 0;
+  padding-bottom: 40px;
+}
+.section_DB .box_images h2 {
+  padding-left: 20px;
+}
+.section_DB .box_right {
+  width: 20%;
+}
+.section_DB .box_images {
+  display: flex;
+  align-items: center;
+}
+.section_DB .box_images .box_text_1 {
+  width: 60%;
+}
+.section_DB .box_images .box_text_1 .imagen {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+.section_DB .box_images .box_text_2 {
+  line-height: 35px;
+  width: 40%;
+}
+
+.section_DB li {
+  color: white;
+}
+
+.section_DB .box_right .imagen {
+  padding-bottom: 5px;
+}
+.section_DB .box_right .text {
+  padding: 20px 5px;
+  background-color: #212122;
+}
+.section_DB .box_right .text h1 {
+  font-size: 16px;
+}
+
+.section_DB .box_right .btn {
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  padding: 10px 0;
+  letter-spacing: 2px;
+  border: 1px solid #ffcf00;
+}
+.section_DB .box_right .whats_icon {
+  padding: 15px 0;
+  text-align: center;
+}
