@@ -12,6 +12,7 @@
   background-color: transparent;
 }
 .menu .imagen {
+  cursor: pointer;
   margin: 0 auto;
   width: 200px;
 }

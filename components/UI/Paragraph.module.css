@@ -6,6 +6,10 @@
 .size_small {
   font-size: 12px;
 }
+.size_aviso {
+  font-size: 10px;
+  margin: 0;
+}
 .size_big {
   margin: 0;
   font-size: 20px;

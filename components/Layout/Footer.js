@@ -81,7 +81,7 @@ const Footer = () => {
 
       <div className={styles.foo_down}>
         <div className={styles.btn}>
-          <Link href="/">
+          <Link href="/privacidad">
             <a>AVISO DE PRIVACIDAD</a>
           </Link>
         </div>

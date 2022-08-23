@@ -9,12 +9,19 @@ function Menu() {
       <nav className={styles.menu}>
         <div className={styles.menu_left}>
           <div className={styles.imagen}>
-            <Image src="/imgs/logoal.png" alt="Logo" width={845} height={215} />
+            <Link href="/">
+              <Image
+                src="/imgs/logoal.png"
+                alt="Logo"
+                width={845}
+                height={215}
+              />
+            </Link>
           </div>
         </div>
         <div className={styles.menu_right}>
           <div className={styles.links}>
-            <Link href="/">
+            <Link href="/index2">
               <a>Home</a>
             </Link>
             <Link href="/casas">

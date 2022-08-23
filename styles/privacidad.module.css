@@ -1,0 +1,17 @@
+.main {
+  background-color: black;
+}
+
+.section_10 {
+  text-align: center;
+  margin: 150px 0;
+}
+
+.privacidad .section_10 .text {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.footer {
+  display: none;
+}
