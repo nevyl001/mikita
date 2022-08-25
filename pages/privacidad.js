@@ -1,16 +1,14 @@
-import Image from "next/image";
-import Link from "next/link";
-import Button from "../components/UI/Button";
 import Paragraph from "../components/UI/Paragraph";
+import Link from "next/link";
 import Subtitle from "../components/UI/Subtitle";
-import Title from "../components/UI/Title";
+import Menu from "../components/Layout/Menu";
 import React from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import styles from "../styles/privacidad.module.css";
 
 export default function privacidad() {
   return (
     <div className={styles.privacidad}>
+      <Menu />
       <div className={styles.section_10}>
         <div className={styles.text}>
           <Subtitle size="medium" color="white">
@@ -116,6 +114,28 @@ export default function privacidad() {
             <br />
             AGICRESA S.A. de C.V.
           </Paragraph>
+        </div>
+        <div className={styles.foo_down}>
+          <div className={styles.btn}>
+            <Link href="/">
+              <a>AVISO DE PRIVACIDAD</a>
+            </Link>
+          </div>
+          <div className={styles.direccion}>
+            <Paragraph>
+              Circuito Pedernal Picacho # 711, C.P. 76226, Col. San Isidro
+              Juriquilla, Santiago de Querétaro, Qro.
+            </Paragraph>
+            <Paragraph>MIKITA TOWN | Todos los derechos reservados.</Paragraph>
+            <Subtitle size="small" color="white">
+              Las imágenes e información presentadas en esta página son
+              solamente como referencia y no deben ser consideradas como
+              definitivas. Los precios pueden ser modificados sin previo aviso.
+            </Subtitle>
+            <Subtitle size="small" color="white">
+              Powered by Fortemus
+            </Subtitle>
+          </div>
         </div>
       </div>
     </div>

@@ -21,7 +21,7 @@ function Menu() {
         </div>
         <div className={styles.menu_right}>
           <div className={styles.links}>
-            <Link href="/index2">
+            <Link href="/">
               <a>Home</a>
             </Link>
             <Link href="/casas">

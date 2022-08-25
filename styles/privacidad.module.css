@@ -12,6 +12,24 @@
   margin: 0 auto;
 }
 
-.footer {
-  display: none;
+.foo_down {
+  margin: 50px 0;
+  text-align: center;
+  color: white;
+}
+.foo_down .btn {
+  padding: 20px 0;
+}
+.foo_down .btn a {
+  padding: 8px 80px;
+  border: 1px solid #ffcf00;
+}
+.foo_down .btn a:hover {
+  background-color: #ffcf00;
+  color: black;
+  transition-duration: 0.5s;
+}
+.foo_down .direccion {
+  margin: 0 auto;
+  width: 60%;
 }
