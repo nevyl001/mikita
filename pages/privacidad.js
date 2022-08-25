@@ -118,7 +118,7 @@ export default function privacidad() {
         <div className={styles.foo_down}>
           <div className={styles.btn}>
             <Link href="/">
-              <a>AVISO DE PRIVACIDAD</a>
+              <a>VOLVER AL HOME</a>
             </Link>
           </div>
           <div className={styles.direccion}>
