@@ -136,13 +136,10 @@ export default function casas() {
           <div className={styles.overlay}>
             <div className={styles.text}>
               <Subtitle size="medium" color="white">
-                EMPIEZA UNN NUEVO ESTILO DE
-              </Subtitle>
-              <Subtitle size="medium" color="white">
+                EMPIEZA UN NUEVO ESTILO DE
+                <br />
                 VIDA CON UN <span>ÁREA PLUS</span> EN TU
-              </Subtitle>
-              <Subtitle size="medium" color="white">
-                NUEVA CASA
+                <br /> NUEVA CASA
               </Subtitle>
             </div>
           </div>
@@ -308,7 +305,7 @@ export default function casas() {
       <div className={styles.section_7}>
         <div className={styles.box_left}>
           <div className={styles.images}>
-            <div className={styles.imagen}>
+            <div className={styles.imagen1}>
               <Image
                 src="/imgs/casas/coci1.jpg"
                 alt="im-casa"
@@ -316,7 +313,7 @@ export default function casas() {
                 height={2250}
               />
             </div>
-            <div className={styles.imagen}>
+            <div className={styles.imagen2}>
               <Image
                 src="/imgs/casas/coci2.jpeg"
                 alt="im-casa"
@@ -324,7 +321,7 @@ export default function casas() {
                 height={2250}
               />
             </div>
-            <div className={styles.imagen}>
+            <div className={styles.imagen3}>
               <Image
                 src="/imgs/casas/coci3.jpeg"
                 alt="im-casa"
@@ -335,9 +332,9 @@ export default function casas() {
           </div>
           <div className={styles.text}>
             <Paragraph>
-              L MODELO &quot;COCINA MEGA&quot; HACE DEL ÁREA DE COCINA EL CENTRO
-              DE ATENCIÓN, CONTRIBUYENDO A LA REUNIÓN Y CONVIVENCIA DE LAS
-              FAMILIAS MODERNAS. SU BARRA AMPLIA AL CENTRO, TIPO ISLA,
+              EL MODELO &quot;COCINA MEGA&quot; HACE DEL ÁREA DE COCINA EL
+              CENTRO DE ATENCIÓN, CONTRIBUYENDO A LA REUNIÓN Y CONVIVENCIA DE
+              LAS FAMILIAS MODERNAS. SU BARRA AMPLIA AL CENTRO, TIPO ISLA,
               PROPORCIONA MAYOR LIBERTAD Y COMODIDAD. <br />
               UN ESPACIO IDEAL PARA LAS REUNIONES CON AMIGOS Y FAMILIA.
             </Paragraph>
@@ -365,12 +362,9 @@ export default function casas() {
           <div className={styles.overlay}>
             <div className={styles.text}>
               <Subtitle size="medium" color="white">
-                EMPIEZA UNN NUEVO ESTILO DE
-              </Subtitle>
-              <Subtitle size="medium" color="white">
-                VIDA CON UNA <span>COCINA MEGA</span> EN TU
-              </Subtitle>
-              <Subtitle size="medium" color="white">
+                EMPIEZA UN NUEVO ESTILO DE
+                <br /> VIDA CON UNA <span>COCINA MEGA</span> EN TU
+                <br />
                 NUEVA CASA
               </Subtitle>
             </div>

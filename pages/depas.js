@@ -119,13 +119,10 @@ export default function depas() {
           <div className={styles.overlay}>
             <div className={styles.text}>
               <Subtitle size="medium" color="white">
-                EMPIEZA UNN NUEVO ESTILO DE
-              </Subtitle>
-              <Subtitle size="medium" color="white">
-                VIDA CON UN <span>1 PISO AMPLIO</span> EN TU
-              </Subtitle>
-              <Subtitle size="medium" color="white">
-                NUEVO DEPA
+                EMPIEZA UN NUEVO ESTILO DE
+                <br /> VIDA CON UN
+                <span>1 PISO AMPLIO</span> EN TU
+                <br /> NUEVO DEPA
               </Subtitle>
             </div>
           </div>
@@ -325,14 +322,12 @@ export default function depas() {
           <div className={styles.overlay}>
             <div className={styles.text}>
               <Subtitle size="medium" color="white">
-                EMPIEZA UNN NUEVO ESTILO DE
+                EMPIEZA UN NUEVO ESTILO DE
+                <br /> VIDA CON UNA
+                <span>DOBLE ALTURA</span> EN TU <br /> NUEVA DEPA
               </Subtitle>
-              <Subtitle size="medium" color="white">
-                VIDA CON UNA <span>DOBLE ALTURA</span> EN TU
-              </Subtitle>
-              <Subtitle size="medium" color="white">
-                NUEVA DEPA
-              </Subtitle>
+              <Subtitle size="medium" color="white"></Subtitle>
+              <Subtitle size="medium" color="white"></Subtitle>
             </div>
           </div>
         </div>
