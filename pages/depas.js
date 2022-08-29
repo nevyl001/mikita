@@ -70,22 +70,34 @@ export default function depas() {
       <div className={styles.section_2}>
         <div className={styles.box_left}>
           <div className={styles.images}>
-            <div className={styles.imagen}>
+            <div
+              className={styles.imagen1}
+              style={{
+                backgroundImage: `url(/imgs/depas/dep1.jpg)`,
+              }}
+            ></div>
+            <div
+              className={styles.imagen2}
+              style={{
+                backgroundImage: `url(/imgs/depas/dep2.jpg)`,
+              }}
+            ></div>
+            {/* <div className={styles.imagen1}>
               <Image
                 src="/imgs/depas/dep1.jpg"
                 alt="im-depas"
                 width={4000}
                 height={2250}
               />
-            </div>
-            <div className={styles.imagen}>
+            </div> */}
+            {/* <div className={styles.imagen2}>
               <Image
                 src="/imgs/depas/dep2.jpg"
                 alt="im-depas"
                 width={3024}
                 height={2250}
               />
-            </div>
+            </div> */}
           </div>
           <div className={styles.text}>
             <Paragraph>
@@ -326,8 +338,6 @@ export default function depas() {
                 <br /> VIDA CON UNA
                 <span>DOBLE ALTURA</span> EN TU <br /> NUEVA DEPA
               </Subtitle>
-              <Subtitle size="medium" color="white"></Subtitle>
-              <Subtitle size="medium" color="white"></Subtitle>
             </div>
           </div>
         </div>
