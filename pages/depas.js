@@ -82,22 +82,6 @@ export default function depas() {
                 backgroundImage: `url(/imgs/depas/dep2.jpg)`,
               }}
             ></div>
-            {/* <div className={styles.imagen1}>
-              <Image
-                src="/imgs/depas/dep1.jpg"
-                alt="im-depas"
-                width={4000}
-                height={2250}
-              />
-            </div> */}
-            {/* <div className={styles.imagen2}>
-              <Image
-                src="/imgs/depas/dep2.jpg"
-                alt="im-depas"
-                width={3024}
-                height={2250}
-              />
-            </div> */}
           </div>
           <div className={styles.text}>
             <Paragraph>
@@ -276,30 +260,44 @@ export default function depas() {
       <div className={styles.section_7}>
         <div className={styles.box_left}>
           <div className={styles.images}>
-            <div className={styles.imagen}>
-              <Image
+            <div
+              className={styles.imagen1}
+              style={{
+                backgroundImage: `url(/imgs/depas/dep2_1.jpg)`,
+              }}
+            >
+              {/* <Image
                 src="/imgs/depas/dep2_1.jpg"
                 alt="im-depas"
                 width={4000}
                 height={2250}
-              />
+              /> */}
             </div>
-            <div className={styles.imagen}>
-              <Image
+            <div
+              className={styles.imagen2}
+              style={{
+                backgroundImage: `url(/imgs/depas/dep2_2.jpg)`,
+              }}
+            >
+              {/* <Image
                 src="/imgs/depas/dep2_2.jpg"
                 alt="im-depas"
                 width={4000}
                 height={2250}
-              />
+              /> */}
             </div>
-
-            <div className={styles.imagen}>
-              <Image
+            <div
+              className={styles.imagen3}
+              style={{
+                backgroundImage: `url(/imgs/depas/dep2_3.jpg)`,
+              }}
+            >
+              {/* <Image
                 src="/imgs/depas/dep2_3.jpg"
                 alt="im-depas"
                 width={3024}
                 height={2250}
-              />
+              /> */}
             </div>
           </div>
           <div className={styles.text}>
