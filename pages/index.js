@@ -73,7 +73,7 @@ export default function Home() {
                     <Subtitle size="medium" color="yellow">
                       {item.text3}
                     </Subtitle>
-                    <div className={styles.btn}>
+                    <div className={styles.ov_btn_slide_close}>
                       <Link href="/">
                         <a>QUIERO SABER MÁS</a>
                       </Link>
@@ -92,27 +92,27 @@ export default function Home() {
               ¿PORQUÉ MIKITA TOWN?
             </Subtitle>
             <Paragraph>
-              MIKITA TOWN SE UBICA EN UNA ZONA PRVILEGIADA QUE PERMITE TRASLADOS
-              EN CORTO TIEMPO, GRACIAS AL POCO TRAFICO VEHICULAR.
+              Mikita Town se ubica en una zona privilegiada que permite
+              traslados en corto tiempo, gracias al poco tráfico vehicular.
             </Paragraph>
             <Paragraph>
-              SE ENCUENTRA A SOLO 10 MINUTOS DE ZONA COMERCIAL CON ALTA DEMANDA,
-              ESCUELAS, SUPERMERCADOS Y HOSPITALES.
-            </Paragraph>
-            <Paragraph>LOCALIZADO EN SAN ISIDRO JURIQUILLA, QRO.</Paragraph>
-            <Paragraph>
-              UNA ZONA EMERGENTE QUE GARANTIZA EL RETORNO PARA LOS
-              INVERSIONISTAS Y UN PATRIMONIO SÓLIDO PARA CUALQUIER FAMILIA.
+              Se encuentra a solo 10 minutos de zona comercial con alta demanda,
+              escuelas, supermercados y hospitales.
             </Paragraph>
             <Paragraph>
-              EL DESARROLLO SE DEFERENCÍA POR SU PROPUESTA INNOVADORA EN
-              ARQUITECTURA, DESTACANDO SU DISEÑO MINIMALISTA, ESPACIOS AMPLIOS E
-              ILUMINADOS Y ACABADOS ÚNICOS DE LARGA VIDA.
+              Localizado en San Isidro Juriquilla, Querétaro. Una zona emergente
+              que permite retornos estables para los inversionistas y crear un
+              patrimonio sólido para cualquier familia.
             </Paragraph>
             <Paragraph>
-              EL CONJUNTO DE AMENIDADES Y ATRIBUTOS DE CADA MODELO ENTRE CASA Y
-              DEPA, FACILITAN EL ESTILO DE VIDA DE LAS PERSONAS, CONSIGUENDO
-              ASÍ, ESTABILIDAD Y UN ENTORNO EN ARMONÍA.
+              Mikita Town es diferente gracias a su propuesta innovadora en
+              arquitectura, destacando su diseño minimalista, con espacios
+              amplios e iluminados, y acabados únicos de larga vida.
+            </Paragraph>
+            <Paragraph>
+              El conjunto de amenidades y atributos de cada modelo, entre casas
+              y departamentos, facilitan el estilo de vida de las personas,
+              ofreciendo así, estabilidad y un entorno en armonía.
             </Paragraph>
           </div>
         </div>
@@ -131,26 +131,26 @@ export default function Home() {
       <div className={styles.porque_down}>
         <div className={styles.text_1}>
           <Title size="small" color="white">
-            122 FAMILIAS
+            52 Familias
           </Title>
           <Subtitle size="medium_1" color="yellow">
-            SATISFECHAS
+            Satisfechas
           </Subtitle>
         </div>
         <div className={styles.text_2}>
           <div className={styles.text_in}>
             <Title size="small" color="white">
-              34 DUPLEX
+              12 Duplex
             </Title>
           </div>
           <div className={styles.text_in}>
             <Title size="small" color="white">
-              70 CASAS
+              22 Casas
             </Title>
           </div>
           <div className={styles.text_in}>
             <Title size="small" color="white">
-              18 DEPAS
+              18 Depas
             </Title>
           </div>
           <div className={styles.text_in_2}>
@@ -161,7 +161,7 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.btn_porque}>
-        <div className={styles.btn}>
+        <div className={styles.ov_btn_slide_close}>
           <Link href="/">
             <a>QUIERO MÁS INFORMACIÓN</a>
           </Link>
@@ -201,17 +201,18 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.text}>
-            <Title size="medium" color="white">
+            <Title size="medium_1" color="white">
               MIKITA HOUSE
             </Title>
-            <Paragraph>CONCEPTO MINIMALISTA, ROBUSTO Y ELEGANTE.</Paragraph>
+            <Paragraph>Concepto minimalista, robusto y elegante. </Paragraph>
             <Paragraph>
-              SE ADAPTA AL ESTILO DE VIDA DE TU FAMILIA , YA QUE, PUEDES ELEGIR
-              &quot;ÁREA PLUS&quot; PARA USARLO COMO CUARTO DE ESTUDIO, HOMME
-              OFFICE, ETC, O COCINA MEGA CON BARRA AL CENTRO, TIPO ISLA.
+              Se adapta al estilo de vida de tu familia, ya que, puedes elegir
+              el modelo &quot;Área plus&quot; para usarlo como cuarto de
+              estudio, homme office, etc, o el modelo "Cocina Mega" con barra al
+              centro, tipo isla.
             </Paragraph>
           </div>
-          <div className={styles.btn}>
+          <div className={styles.ov_btn_slide_close}>
             <Link href="/">
               <a>SABER MÁS</a>
             </Link>
@@ -235,18 +236,18 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.text}>
-            <Title size="medium" color="white">
+            <Title size="medium_1" color="white">
               DABURÚ
             </Title>
-            <Paragraph>CONCEPTO MINIMALISTA Y MUY AMPLIO.</Paragraph>
+            <Paragraph>Concepto minimalista y muy amplio.</Paragraph>
             <Paragraph>
-              TE BRINDA DOS EXCELENTES OPCIONES, YA QUE, PUEDES ELEGIR &quot;UN
-              PISO&quot; CON AMPLIO ESPACIO PARA JARDÍN Y TERRAZA O &quot;DOBLE
-              ALTURA&quot; CON AMPLIA TERRAZA. IDEAL PARA INVERSIÓN CON RETORNO
-              O PATRIMONIAL.
+              Te brinda dos excelentes opciones, ya que, puedes elegir el modelo
+              &quot;Un Piso&quot; con amplio espacio para jardín y terraza o el
+              modelo &quot;Doble Altura&quot; con amplia terraza. Ideal para
+              inversión con alto rendimiento o inversión patrimonial.
             </Paragraph>
           </div>
-          <div className={styles.btn}>
+          <div className={styles.ov_btn_slide_close}>
             <Link href="/">
               <a>SABER MÁS</a>
             </Link>
@@ -270,15 +271,19 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.video_text}>
-          <div className={styles.btn}>
-            <Link href="/">
-              <a>QUIERO HABLAR CON UN ASESOR</a>
-            </Link>
+          <div className={styles.box_left}>
+            <div className={styles.ov_btn_slide_close}>
+              <Link href="/">
+                <a>QUIERO HABLAR CON UN ASESOR</a>
+              </Link>
+            </div>
           </div>
-          <div className={styles.text}>
-            <Title size="small" color="white">
-              ESTAS A PUNTO DE EMPEZAR UN NUEVO ESTILO DE VIDA.
-            </Title>
+          <div className={styles.box_right}>
+            <div className={styles.text}>
+              <Title size="small" color="white">
+                ESTAS A PUNTO DE EMPEZAR UN NUEVO ESTILO DE VIDA.
+              </Title>
+            </div>
           </div>
         </div>
       </div>
@@ -525,6 +530,14 @@ export default function Home() {
         </div>
         <div className={styles.text_box}>
           <Paragraph>Desarrollado por</Paragraph>
+        </div>
+      </div>
+
+      <div>
+        <div className={styles.botoncolor}>
+          <a href="#" className="ov-btn-slide-close">
+            BTN SLIDE CLOSE
+          </a>
         </div>
       </div>
     </main>

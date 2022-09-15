@@ -29,12 +29,44 @@
   width: 500px;
   margin: auto;
 }
-.text_header .btn {
-  padding: 80px 0;
+.text_header .ov_btn_slide_close {
+  margin-top: 75px;
 }
-.btn a {
-  padding: 15px 80px;
-  border: 1px solid #ffcf00;
+.ov_btn_slide_close {
+  color: white;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+  letter-spacing: 5px;
+  padding: 15px 30px;
+  border: 2px solid #ffcf00;
+}
+.ov_btn_slide_close:before,
+.ov_btn_slide_close:after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: -50%;
+  background-color: #ffcf00; /* color de fondo hover */
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.ov_btn_slide_close:after {
+  left: 100%;
+}
+.ov_btn_slide_close:hover {
+  color: black; /* color de fuente hover */
+}
+.ov_btn_slide_close:hover:before {
+  left: 0;
+}
+.ov_btn_slide_close:hover:after {
+  left: 50%;
 }
 
 /* seccion porque */
@@ -83,22 +115,22 @@
 
 .elige_title {
   position: relative;
-  margin-top: 50px;
+  margin-top: 150px;
   padding: 10px 0;
   text-align: center;
-}
-.elige {
-  margin-bottom: 100px;
-  margin: 0 auto;
-  gap: 25px;
-  width: 50%;
-  display: flex;
 }
 .town_logo {
   position: absolute;
   top: 0px;
   left: 0px;
   width: 15%;
+}
+.elige {
+  margin-bottom: 100px;
+  margin: 0 auto;
+  gap: 25px;
+  width: 60%;
+  display: flex;
 }
 .elige_left {
   width: 50%;
@@ -148,31 +180,27 @@
   color: black;
   background-color: #ffcf00;
 }
-
 .elige .text {
-  padding: 40px 30px;
+  height: 300px;
+  padding: 20px 20px;
   background-color: #212121;
 }
-
-.elige .btn {
+.elige .ov_btn_slide_close {
+  cursor: pointer;
   margin-bottom: 100px;
-  margin-top: 10px;
   margin-left: 20px;
-  color: white;
 }
-
 /* seccion video */
-
 .video {
   color: white;
 }
 .video .imagen {
   position: relative;
-  height: 500px;
+  height: 700px;
 }
 .video .item1 {
   width: 100%;
-  height: 500px;
+  height: 700px;
   background-position: center center;
   background-size: cover;
 }
@@ -184,28 +212,65 @@
   top: 0;
   left: 0;
   z-index: 900;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
   width: 100%;
   height: 100%;
 }
-
 .video_text {
   align-items: center;
   display: flex;
-  padding: 50px 0;
+  padding: 35px 0;
   gap: 20px;
 }
-.video_text .btn {
+.video_text .box_left {
   text-align: right;
   width: 50%;
 }
-.video_text .text {
-  align-items: bottom;
-  text-align: left;
+
+.video_text .ov_btn_slide_close {
+  color: white;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+  letter-spacing: 5px;
+  padding: 15px 40px;
+  border: 2px solid #ffcf00;
+}
+.video_text .ov_btn_slide_close:before,
+.video_text .ov_btn_slide_close:after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: -50%;
+  background-color: #ffcf00; /* color de fondo hover */
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.video_text .ov_btn_slide_close:after {
+  left: 100%;
+}
+.video_text .ov_btn_slide_close:hover {
+  color: black; /* color de fuente hover */
+}
+.video_text .ov_btn_slide_close:hover:before {
+  left: 0;
+}
+.video_text .ov_btn_slide_close:hover:after {
+  left: 50%;
+}
+
+.video_text .box_right {
   width: 50%;
 }
 /* town */
 .town {
+  margin-top: 150px;
   position: relative;
   text-align: center;
 }
@@ -357,7 +422,8 @@
 /* comments*/
 
 .coments {
-  margin: 30px 0;
+  margin-top: 150px;
+  margin-bottom: 25px;
   background-color: #212121;
   gap: 10px;
   display: flex;
@@ -365,7 +431,7 @@
 .coments .imagen {
   position: relative;
   width: 50%;
-  height: 400px;
+  height: 500px;
 }
 .coments .imagen .overlay {
   position: absolute;
@@ -378,7 +444,7 @@
 }
 .coments .text {
   padding: 20px 10px;
-  width: 60%;
+  width: 50%;
 }
 .text .coment .stars {
   padding-bottom: 15px;
@@ -395,20 +461,21 @@
 }
 .coments .item1 {
   width: 100%;
-  height: 400px;
+  height: 500px;
   background-position: bottom center;
   background-size: cover;
 }
 /* desarrollo */
 .desarrollo {
-  justify-content: center;
+  margin: 0 auto;
   align-items: center;
   gap: 20px;
-  width: 50%;
-  margin: 0 auto;
-  margin-bottom: 75px;
+  width: 35%;
   display: flex;
 }
 .desarrollo .imagen {
-  width: 25%;
+  width: 50%;
+}
+.desarrollo .text_box {
+  width: 50%;
 }

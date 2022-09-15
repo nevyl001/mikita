@@ -4,12 +4,24 @@
   color: white;
 }
 .size_small {
+  font-weight: 100;
   font-size: 12px;
+}
+.size_small_1 {
+  font-weight: 100;
+  font-size: 13px;
 }
 .size_aviso {
   font-size: 10px;
   margin: 0;
 }
+.size_aviso_1 {
+  font-size: 18px;
+  font-weight: 100;
+  margin-top: 25px;
+  letter-spacing: 6px;
+}
+
 .size_big {
   margin: 0;
   font-size: 20px;

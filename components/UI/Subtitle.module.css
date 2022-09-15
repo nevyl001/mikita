@@ -5,12 +5,16 @@
   letter-spacing: 8px;
 }
 .size_medium {
-  font-size: 22px;
-  letter-spacing: 12px;
+  margin: 0;
+  font-weight: lighter;
+  font-size: 21px;
+  letter-spacing: 16px;
 }
 .size_medium_1 {
-  font-size: 20px;
-  letter-spacing: 2px;
+  margin: 0;
+  font-weight: lighter;
+  font-size: 15px;
+  letter-spacing: 4px;
 }
 .size_small {
   font-size: 12px;

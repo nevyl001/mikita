@@ -41,8 +41,8 @@ function Menu() {
             <a href="#" title="whatsapp">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
+                width="25"
+                height="25"
                 fill="currentColor"
                 className="bi bi-whatsapp"
                 viewBox="0 0 16 16"
@@ -53,8 +53,8 @@ function Menu() {
             <a href="#" title="facebook">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
+                width="25"
+                height="25"
                 fill="currentColor"
                 className="bi bi-facebook"
                 viewBox="0 0 16 16"
@@ -66,8 +66,8 @@ function Menu() {
             <a href="#" title="instagram">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
+                width="25"
+                height="25"
                 fill="currentColor"
                 className="bi bi-instagram"
                 viewBox="0 0 16 16"
@@ -79,8 +79,8 @@ function Menu() {
             <a href="#" title="tik-tok">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
+                width="25"
+                height="25"
                 fill="currentColor"
                 className="bi bi-tiktok"
                 viewBox="0 0 16 16"
@@ -92,8 +92,8 @@ function Menu() {
             <a href="#" title="youtube">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
+                width="25"
+                height="25"
                 fill="currentColor"
                 className="bi bi-youtube"
                 viewBox="0 0 16 16"

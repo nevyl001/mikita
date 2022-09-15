@@ -16,11 +16,16 @@
   font-weight: bold;
 }
 .size_medium {
-  font-size: 45px;
-  line-height: 45px;
+  font-size: 60px;
+  font-weight: bold;
+}
+.size_medium_1 {
+  font-size: 50px;
+  font-weight: bold;
 }
 .size_small {
-  font-size: 23px;
+  margin-bottom: 5px;
+  font-size: 28px;
   letter-spacing: 2px;
   font-weight: bold;
 }
