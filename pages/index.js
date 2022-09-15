@@ -208,8 +208,8 @@ export default function Home() {
             <Paragraph>
               Se adapta al estilo de vida de tu familia, ya que, puedes elegir
               el modelo &quot;Área plus&quot; para usarlo como cuarto de
-              estudio, homme office, etc, o el modelo "Cocina Mega" con barra al
-              centro, tipo isla.
+              estudio, homme office, etc, o el modelo &quot;Cocina Mega&quot;
+              con barra al centro, tipo isla.
             </Paragraph>
           </div>
           <div className={styles.ov_btn_slide_close}>
