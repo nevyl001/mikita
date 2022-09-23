@@ -1,13 +1,23 @@
 .subtitle {
-  font-size: 16px;
+  font-size: 15px;
   margin-bottom: 20px;
   padding: 0;
-  letter-spacing: 8px;
+  letter-spacing: 10px;
+}
+.size_whats {
+  letter-spacing: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+.size_whats_1 {
+  letter-spacing: 0;
+  font-weight: bold;
+  font-size: 26px;
 }
 .size_medium {
   margin: 0;
-  font-weight: lighter;
-  font-size: 21px;
+  font-weight: 100;
+  font-size: 25px;
   letter-spacing: 16px;
 }
 .size_medium_1 {
