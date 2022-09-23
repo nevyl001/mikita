@@ -20,15 +20,19 @@
 .form_footer .box_right {
   background-color: #212121;
   text-align: center;
-  height: 250px;
+  padding: 20px 0;
+  height: 300px;
   width: 50%;
+}
+.form_footer .box_right .whats p {
+  padding-bottom: 5px;
 }
 .form_footer .box_right .whats {
   height: 250px;
   padding: 10px;
 }
 .form_footer .box_right .whats_icon {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 .form_footer .form_box {
   color: white;

@@ -59,12 +59,13 @@ const Footer = () => {
         </div>
         <div className={styles.box_right}>
           <div className={styles.whats}>
-            <Paragraph>También nos puedes contactar por WhatsApp.</Paragraph>
+            <Paragraph>También nos puedes contactar</Paragraph>
+            <Paragraph>por WhatsApp.</Paragraph>
             <div className={styles.whats_icon}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="80"
-                height="80"
+                width="70"
+                height="70"
                 fill="#ffcf00"
                 className="bi bi-whatsapp"
                 viewBox="0 0 16 16"

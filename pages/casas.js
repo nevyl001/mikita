@@ -183,7 +183,7 @@ export default function casas() {
                       src="/imgs/casas/plantabaplus.png"
                       alt="im-casa"
                       width={1080}
-                      height={2050}
+                      height={2000}
                     />
                   </div>
                   <div className={styles.right}>
@@ -211,7 +211,7 @@ export default function casas() {
                       src="/imgs/casas/plantaalta.png"
                       alt="im-casa"
                       width={1080}
-                      height={2050}
+                      height={2000}
                     />
                   </div>
                   <div className={styles.right}>
@@ -385,7 +385,7 @@ export default function casas() {
                       src="/imgs/casas/plantabaja.png"
                       alt="im-casa"
                       width={1080}
-                      height={2050}
+                      height={2000}
                     />
                   </div>
                   <div className={styles.right}>
@@ -412,7 +412,7 @@ export default function casas() {
                       src="/imgs/casas/plantaalta.png"
                       alt="im-casa"
                       width={1080}
-                      height={2050}
+                      height={2000}
                     />
                   </div>
                   <div className={styles.right}>
@@ -552,15 +552,18 @@ export default function casas() {
       </div>
       {/* desarrollado por */}
       <div className={styles.desarrollo}>
-        <div className={styles.imagen}>
-          <Image
-            src="/imgs/logoal.png"
-            alt="im-logo"
-            width={845}
-            height={215}
-          />
+        <div className={styles.left}>
+          <div className={styles.img}>
+            <Image
+              src="/imgs/logoal.png"
+              alt="im-logo"
+              width={295}
+              height={65}
+            />
+          </div>
         </div>
-        <div className={styles.text_box}>
+        <div className={styles.ri}>
+          <div className={styles.text_box}></div>
           <Paragraph>Desarrollado por</Paragraph>
         </div>
       </div>
@@ -590,6 +593,7 @@ export default function casas() {
           <Paragraph size="medium" color="yellow">
             VISÍTANOS
           </Paragraph>
+
           <div className={styles.arrow}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
