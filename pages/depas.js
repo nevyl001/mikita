@@ -51,20 +51,10 @@ export default function depas() {
         </div>
       </div>
       <div className={styles.section_1}>
-        <div className={styles.text_left}>
-          <Subtitle size="medium" color="yellow">
-            DABURÚ | 1 PISO
-          </Subtitle>
-        </div>
-        <div className={styles.text_right}>
-          <div className={styles.imagen}>
-            <Image
-              src="/imgs/depas/preciodepas.png"
-              alt="im-depas"
-              width={438}
-              height={70}
-            />
-          </div>
+        <div className={styles.text}>
+          <Title size="medium_1" color="white">
+            DABURÚ UN PISO
+          </Title>
         </div>
       </div>
       <div className={styles.section_2}>
@@ -84,21 +74,21 @@ export default function depas() {
             ></div>
           </div>
           <div className={styles.text}>
-            <Paragraph>
-              EL MODELO &quot;1 PISO&quot; OFRECE UN ESPACIO DE CONFORT,
-              DESTACANDO POR SU GRANDE ESPACIO AL INTERIOR Y EL ÁREA DEL JARDÍN.
-              ESTÁS CARACTERÍSTICAS SIN DUDA, OFRECEN UNA SENSACIÓN DE LIBERTAD
-              Y SENTIRSE COMO VIVIR EN UNA CASA.
+            <Paragraph size="casa">
+              El modelo &quot;Un Piso&quot; ofrece un espacio de confort,
+              destacando por su grande espacio al interior y en el área del
+              jardín. Estás características sin duda ofrecen una sensación de
+              libertad y de sentirse como vivir en una casa.
             </Paragraph>
           </div>
         </div>
         <div className={styles.box_right}>
           <div className={styles.imagen}>
             <Image
-              src="/imgs/depas/infodepas.png"
+              src="/imgs/depas/da1.png"
               alt="im-depas"
-              width={432}
-              height={618}
+              width={444}
+              height={726}
             />
           </div>
         </div>
@@ -125,22 +115,22 @@ export default function depas() {
         </div>
         <div className={styles.box_right}>
           <div className={styles.text}>
-            <Title size="small" color="white" align="center">
+            <Subtitle size="whats_1" color="white">
               AGENDA TU CITA
-            </Title>
+            </Subtitle>
             <div className={styles.btn}>
               <Link href="/">
                 <a>AHORA MISMO</a>
               </Link>
             </div>
             <div className={styles.whats_icon}>
-              <Title size="small" color="white" align="center">
+              <Subtitle size="whats" color="white">
                 ENVÍANOS WHATSAPP
-              </Title>
+              </Subtitle>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="100"
-                height="100"
+                width="70"
+                height="70"
                 fill="#ffcf00"
                 className="bi bi-whatsapp"
                 viewBox="0 0 16 16"
@@ -157,24 +147,9 @@ export default function depas() {
             DISTRIBUCIÓN ARQUITECTÓNICA
           </Title>
         </div>
-        <div className={styles.image}>
-          <div className={styles.imagen}>
-            <Image
-              src="/imgs/depas/preciodepas.png"
-              alt="im-depas"
-              width={438}
-              height={70}
-            />
-          </div>
-        </div>
       </div>
       <div className={styles.section_5}>
         <div className={styles.box_left}>
-          <div className={styles.title}>
-            <Subtitle size="big" color="yellow">
-              DABURÚ | 1 PISO
-            </Subtitle>
-          </div>
           <div className={styles.box_images}>
             <div className={styles.box_text_1}>
               <Subtitle size="small" color="yellow">
@@ -207,10 +182,10 @@ export default function depas() {
         <div className={styles.box_right}>
           <div className={styles.imagen}>
             <Image
-              src="/imgs/depas/infodepas.png"
+              src="/imgs/depas/dist.png"
               alt="im-depas"
-              width={432}
-              height={618}
+              width={442}
+              height={720}
             />
           </div>
           <div className={styles.text}>
@@ -242,19 +217,9 @@ export default function depas() {
       </div>
       <div className={styles.section_6}>
         <div className={styles.text_left}>
-          <Subtitle size="medium" color="yellow">
-            DABURÚ | DOBLE ALTURA
-          </Subtitle>
-        </div>
-        <div className={styles.text_right}>
-          <div className={styles.imagen}>
-            <Image
-              src="/imgs/depas/doblealt.png"
-              alt="im-depas"
-              width={478}
-              height={76}
-            />
-          </div>
+          <Title size="medium" color="white">
+            DABURÚ DOBLE ALTURA
+          </Title>
         </div>
       </div>
       <div className={styles.section_7}>
@@ -302,21 +267,21 @@ export default function depas() {
           </div>
           <div className={styles.text}>
             <Paragraph>
-              EL MODELO &quot;DOBLE ALTURA&quot;DISRUMPE CON SU ATRACTIVO DISEÑO
-              QUE SE APRECIA DESDE ABRIR LA PUERTA. CON LA PROPUESTA A DOBLE
-              ALTURA SE CONSIGUE APROVECHAR EL ESPACIO DE MANERA EFICIENTE,
-              PRIORIZANDO LA COMODIDAD Y OBTENIENDO COMO RESULTADO UN ENTORNO
-              INTERIOR DE ALTA GAMA.
+              El modelo &quot;Doble Altura&quot; es disruptivo por su atractivo
+              diseño que se aprecia desde abrir la puerta. Con su propuesta
+              Doble Altura se consigue aprovechar el espacio de manera
+              eficiente, priorizando la comodidad y obteniendo como resultado un
+              entorno interior de alta gama.
             </Paragraph>
           </div>
         </div>
         <div className={styles.box_right}>
           <div className={styles.imagen}>
             <Image
-              src="/imgs/depas/infodoalt.png"
+              src="/imgs/depas/dd2.png"
               alt="im-depa"
-              width={480}
-              height={680}
+              width={438}
+              height={714}
             />
           </div>
         </div>
@@ -341,22 +306,22 @@ export default function depas() {
         </div>
         <div className={styles.box_right}>
           <div className={styles.text}>
-            <Title size="small" color="white" align="center">
+            <Subtitle size="whats_1" color="white">
               AGENDA TU CITA
-            </Title>
+            </Subtitle>
             <div className={styles.btn}>
               <Link href="/">
                 <a>AHORA MISMO</a>
               </Link>
             </div>
             <div className={styles.whats_icon}>
-              <Title size="small" color="white" align="center">
+              <Subtitle size="whats" color="white">
                 ENVÍANOS WHATSAPP
-              </Title>
+              </Subtitle>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="100"
-                height="100"
+                width="70"
+                height="70"
                 fill="#ffcf00"
                 className="bi bi-whatsapp"
                 viewBox="0 0 16 16"
@@ -373,24 +338,9 @@ export default function depas() {
             DISTRIBUCIÓN ARQUITECTÓNICA
           </Title>
         </div>
-        <div className={styles.image}>
-          <div className={styles.imagen}>
-            <Image
-              src="/imgs/depas/doblealt.png"
-              alt="im-depas"
-              width={478}
-              height={76}
-            />
-          </div>
-        </div>
       </div>
       <div className={styles.section_DB}>
         <div className={styles.box_left}>
-          <div className={styles.title}>
-            <Subtitle size="big" color="yellow">
-              DABURÚ | DOBLE ALTURA
-            </Subtitle>
-          </div>
           <div className={styles.box_images}>
             <div className={styles.box_text_1}>
               <Subtitle size="small" color="yellow">
@@ -402,7 +352,7 @@ export default function depas() {
                     src="/imgs/depas/planta1.jpg"
                     alt="im-depas"
                     width={858}
-                    height={1280}
+                    height={1150}
                   />
                 </div>
                 <div className={styles.right}>
@@ -410,7 +360,7 @@ export default function depas() {
                     src="/imgs/depas/planta2.jpg"
                     alt="im-depas"
                     width={858}
-                    height={1280}
+                    height={1150}
                   />
                 </div>
               </div>
@@ -434,10 +384,10 @@ export default function depas() {
         <div className={styles.box_right}>
           <div className={styles.imagen}>
             <Image
-              src="/imgs/depas/infodoalt.png"
+              src="/imgs/depas/dd2.png"
               alt="im-depa"
-              width={480}
-              height={680}
+              width={438}
+              height={714}
             />
           </div>
           <div className={styles.text}>
@@ -555,15 +505,18 @@ export default function depas() {
       </div>
       {/* desarrollado por */}
       <div className={styles.desarrollo}>
-        <div className={styles.imagen}>
-          <Image
-            src="/imgs/logoal.png"
-            alt="im-logo"
-            width={845}
-            height={215}
-          />
+        <div className={styles.left}>
+          <div className={styles.img}>
+            <Image
+              src="/imgs/logoal.png"
+              alt="im-logo"
+              width={295}
+              height={65}
+            />
+          </div>
         </div>
-        <div className={styles.text_box}>
+        <div className={styles.ri}>
+          <div className={styles.text_box}></div>
           <Paragraph>Desarrollado por</Paragraph>
         </div>
       </div>

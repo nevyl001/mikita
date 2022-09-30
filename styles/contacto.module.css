@@ -18,9 +18,10 @@
   width: 30%;
 }
 .section_10 .text p {
-  font-size: 20px;
-  font-weight: 300;
-  letter-spacing: 5px;
+  font-size: 26px;
+  margin-bottom: 35px;
+  font-weight: lighter;
+  letter-spacing: 8px;
 }
 
 .section_DB {
