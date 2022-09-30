@@ -520,24 +520,19 @@ export default function Home() {
       </div>
       {/* desarrollado por */}
       <div className={styles.desarrollo}>
-        <div className={styles.imagen}>
-          <Image
-            src="/imgs/logoal.png"
-            alt="im-logo"
-            width={845}
-            height={215}
-          />
+        <div className={styles.left}>
+          <div className={styles.img}>
+            <Image
+              src="/imgs/logoal.png"
+              alt="im-logo"
+              width={295}
+              height={65}
+            />
+          </div>
         </div>
-        <div className={styles.text_box}>
+        <div className={styles.ri}>
+          <div className={styles.text_box}></div>
           <Paragraph>Desarrollado por</Paragraph>
-        </div>
-      </div>
-
-      <div>
-        <div className={styles.botoncolor}>
-          <a href="#" className="ov-btn-slide-close">
-            BTN SLIDE CLOSE
-          </a>
         </div>
       </div>
     </main>
