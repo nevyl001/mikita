@@ -563,8 +563,12 @@ export default function casas() {
           </div>
         </div>
         <div className={styles.ri}>
-          <div className={styles.text_box}></div>
-          <Paragraph>Desarrollado por</Paragraph>
+          <div className={styles.text_box}>
+            <Paragraph>Desarrollado por</Paragraph>
+          </div>
+        </div>
+        <div className={styles.img}>
+          <Image src="/imgs/LoAgi.png" alt="im-logo" width={100} height={65} />
         </div>
       </div>
 

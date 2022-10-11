@@ -32,7 +32,7 @@ const HEADER_IMAGES = [
   },
   {
     id: 4,
-    image: "pici1.jpeg",
+    image: "ameninew.png",
     text1: "EMPIEZA UN NUEVO ESTILO DE VIDA EN",
     text2: "MIKITA TOWN",
     text3: "ENTREGA INMEDIATA Y PREVENTA",
@@ -182,6 +182,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+
       <div className={styles.elige}>
         <div className={styles.elige_left}>
           <div className={styles.imagen}>
@@ -192,11 +193,11 @@ export default function Home() {
               height={3040}
             />
             <div className={styles.top_content}>
-              <div className={styles.top_text1}>ÁREA PLUS</div>
+              <div className={styles.top_text1}>Tsuika</div>
               <div className={styles.top_text2}>$2,490,000</div>
             </div>
             <div className={styles.bottom_content}>
-              <div className={styles.top_text1}>COCINA MEGA</div>
+              <div className={styles.top_text1}>Sugoi</div>
               <div className={styles.top_text2}>$2,490,000</div>
             </div>
           </div>
@@ -205,11 +206,16 @@ export default function Home() {
               MIKITA HOUSE
             </Title>
             <Paragraph>Concepto minimalista, robusto y elegante. </Paragraph>
+            <Paragraph>Se adapta al estilo de vida de tu familia.</Paragraph>
             <Paragraph>
-              Se adapta al estilo de vida de tu familia, ya que, puedes elegir
-              el modelo &quot;Área plus&quot; para usarlo como cuarto de
-              estudio, homme office, etc, o el modelo &quot;Cocina Mega&quot;
-              con barra al centro, tipo isla.
+              <span>Modelo Tsuika:</span> Se caracteriza por tener un Cuarto
+              Adicional en planta baja, puedes usarlo como cuarto de estudio,
+              home office, cuarto de yoga, etc.
+            </Paragraph>
+            <Paragraph>
+              <span>Modelo Sugoi:</span> Se caracteriza por tener una Cocina
+              Grande con barra al centro tipo isla, para que cocines
+              cómodamente.
             </Paragraph>
           </div>
           <div className={styles.ov_btn_slide_close}>
@@ -227,11 +233,11 @@ export default function Home() {
               height={3040}
             />
             <div className={styles.top_content2}>
-              <div className={styles.top_text1}>DOBLE ALTURA</div>
+              <div className={styles.top_text1}>Double</div>
               <div className={styles.top_text2}>$2,190,000</div>
             </div>
             <div className={styles.bottom_content2}>
-              <div className={styles.top_text1}>1 PISO</div>
+              <div className={styles.top_text1}>Flat</div>
               <div className={styles.top_text2}>$1,690,000</div>
             </div>
           </div>
@@ -241,10 +247,14 @@ export default function Home() {
             </Title>
             <Paragraph>Concepto minimalista y muy amplio.</Paragraph>
             <Paragraph>
-              Te brinda dos excelentes opciones, ya que, puedes elegir el modelo
-              &quot;Un Piso&quot; con amplio espacio para jardín y terraza o el
-              modelo &quot;Doble Altura&quot; con amplia terraza. Ideal para
-              inversión con alto rendimiento o inversión patrimonial.
+              <span>Modelo &quot;Un Piso&quot;:</span> Con amplio espacio para
+              jardín y terraza. El espacio más económico por metro cuadrado vs.
+              la oferta de departamentos en Querétaro.
+            </Paragraph>
+            <Paragraph>
+              <span>Modelo &quot;Doble Altura&quot;: </span> Con amplia terraza.
+              Innovador por su diseño de doble altura. Ideal para inversión con
+              alto rendimiento o inversión patrimonial.
             </Paragraph>
           </div>
           <div className={styles.ov_btn_slide_close}>
@@ -531,8 +541,12 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.ri}>
-          <div className={styles.text_box}></div>
-          <Paragraph>Desarrollado por</Paragraph>
+          <div className={styles.text_box}>
+            <Paragraph>Desarrollado por</Paragraph>
+          </div>
+        </div>
+        <div className={styles.img}>
+          <Image src="/imgs/LoAgi.png" alt="im-logo" width={100} height={65} />
         </div>
       </div>
     </main>
