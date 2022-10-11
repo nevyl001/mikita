@@ -64,6 +64,9 @@
 .section_2 .box_left .images .imagen2 {
   width: 30%;
 }
+.section_2 p span {
+  color: #ffcf00;
+}
 
 .section_3 {
   gap: 10px;
@@ -226,6 +229,9 @@
 }
 .section_7 .box_left .images .imagen3 {
   width: 20%;
+}
+.section_7 p span {
+  color: #ffcf00;
 }
 
 /* coments */

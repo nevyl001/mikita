@@ -383,7 +383,7 @@ export default function Home() {
         <div
           className={styles.imagen_item1}
           style={{
-            backgroundImage: `url(/imgs/pici1.jpeg)`,
+            backgroundImage: `url(/imgs/ameninew.png)`,
           }}
         ></div>
         <div

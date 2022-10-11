@@ -62,7 +62,9 @@
 .section_2 .box_right {
   width: 15%;
 }
-
+.section_2 p span {
+  color: #ffcf00;
+}
 .section_3 {
   padding: 20px 20px;
   gap: 10px;
@@ -225,6 +227,9 @@
 
 .section_7 .box_right {
   width: 15%;
+}
+.section_7 p span {
+  color: #ffcf00;
 }
 
 /* coments */

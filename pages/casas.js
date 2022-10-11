@@ -54,7 +54,7 @@ export default function casas() {
         <div className={styles.section_1}>
           <div className={styles.text}>
             <Title size="medium_1" color="white">
-              MIKITA HOUSE ÁREA PLUS
+              Mikita House Tsuika
             </Title>
           </div>
         </div>
@@ -96,11 +96,11 @@ export default function casas() {
             </div>
             <div className={styles.text}>
               <Paragraph size="casa">
-                El modelo &quot;Área Plus&quot; se adapta al estilo de vida
-                actual ya que, su valor agregado ofrece un espacio adicional en
-                Planta Baja que puedes usar como, cuarto de estudio o home
-                office. El Área Plus te brinda la libertad de darle el uso que
-                más te convenga.
+                El <span>modelo Tsuika</span> cuenta se adapta al estilo de vida
+                actual ya que, su valor agregado ofrece un{" "}
+                <span>área adicional</span> en Planta Baja que puedes usar como,
+                cuarto de estudio o home office. El Área Plus te brinda la
+                libertad de darle el uso que más te convenga.
               </Paragraph>
             </div>
           </div>
@@ -129,7 +129,7 @@ export default function casas() {
                 <Subtitle size="medium" color="white">
                   EMPIEZA UN NUEVO ESTILO DE
                   <br />
-                  VIDA CON UN <span>ÁREA PLUS</span> EN TU
+                  VIDA CON UN <span>ÁREA ADICIONAL</span> EN TU
                   <br /> NUEVA CASA
                 </Subtitle>
               </div>
@@ -265,7 +265,7 @@ export default function casas() {
         <div className={styles.section_6}>
           <div className={styles.text}>
             <Title size="medium_1" color="white">
-              MIKITA HOUSE COCINA MEGA
+              Mikita House Sugoi
             </Title>
           </div>
         </div>
@@ -299,11 +299,11 @@ export default function casas() {
             </div>
             <div className={styles.text}>
               <Paragraph size="casa">
-                El modelo &quot;Cocina Mega&quot; hace del área de cocina el
-                centro de atención, contribuyendo a la reunión y convivencia de
-                las familias modernas, su barra amplia al centro tipo isla,
-                proporciona mayor libertad y comodidad. <br />
-                Un espacio ideal para las reuniones con amigos y familia.
+                El <span>modelo Sugoi</span> con su <span>cocina grande</span>{" "}
+                hace esta área el centro de atención, contribuyendo a la reunión
+                y convivencia de las familias modernas, su barra amplia al
+                centro tipo isla, proporciona mayor libertad y comodidad. Un
+                espacio ideal para las reuniones con amigos y familia.
               </Paragraph>
             </div>
           </div>
@@ -330,7 +330,7 @@ export default function casas() {
               <div className={styles.text}>
                 <Subtitle size="medium" color="white">
                   EMPIEZA UN NUEVO ESTILO DE
-                  <br /> VIDA CON UNA <span>COCINA MEGA</span> EN TU
+                  <br /> VIDA CON UNA <span>COCINA GRANDE</span> EN TU
                   <br />
                   NUEVA CASA
                 </Subtitle>

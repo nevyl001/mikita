@@ -53,7 +53,7 @@ export default function depas() {
       <div className={styles.section_1}>
         <div className={styles.text}>
           <Title size="medium_1" color="white">
-            DABURÚ UN PISO
+            Daburú Flat
           </Title>
         </div>
       </div>
@@ -75,10 +75,10 @@ export default function depas() {
           </div>
           <div className={styles.text}>
             <Paragraph size="casa">
-              El modelo &quot;Un Piso&quot; ofrece un espacio de confort,
-              destacando por su grande espacio al interior y en el área del
-              jardín. Estás características sin duda ofrecen una sensación de
-              libertad y de sentirse como vivir en una casa.
+              El modelo <span>Flat</span> ofrece un <span>espacio amplio</span>{" "}
+              de alto confort, destacando por su grande espacio al interior y en
+              el área del jardín. Estás características sin duda ofrecen una
+              sensación de libertad y de sentirse como vivir en una casa.
             </Paragraph>
           </div>
         </div>
@@ -107,7 +107,7 @@ export default function depas() {
               <Subtitle size="medium" color="white">
                 EMPIEZA UN NUEVO ESTILO DE
                 <br /> VIDA CON UN
-                <span>1 PISO AMPLIO</span> EN TU
+                <span>ESPACIO AMPLIO </span> EN TU
                 <br /> NUEVO DEPA
               </Subtitle>
             </div>
@@ -218,7 +218,7 @@ export default function depas() {
       <div className={styles.section_6}>
         <div className={styles.text_left}>
           <Title size="medium" color="white">
-            DABURÚ DOBLE ALTURA
+            Daburú Double
           </Title>
         </div>
       </div>
@@ -267,11 +267,11 @@ export default function depas() {
           </div>
           <div className={styles.text}>
             <Paragraph>
-              El modelo &quot;Doble Altura&quot; es disruptivo por su atractivo
-              diseño que se aprecia desde abrir la puerta. Con su propuesta
-              Doble Altura se consigue aprovechar el espacio de manera
-              eficiente, priorizando la comodidad y obteniendo como resultado un
-              entorno interior de alta gama.
+              El modelo <span>Doble</span> es disruptivo por su atractivo diseño
+              de <span>doble altura</span>que se aprecia desde abrir la puerta.
+              Con su propuesta Doble Altura se consigue aprovechar el espacio de
+              manera eficiente, priorizando la comodidad y obteniendo como
+              resultado un entorno interior de alta gama.
             </Paragraph>
           </div>
         </div>
@@ -298,7 +298,7 @@ export default function depas() {
             <div className={styles.text}>
               <Subtitle size="medium" color="white">
                 EMPIEZA UN NUEVO ESTILO DE
-                <br /> VIDA CON UNA
+                <br /> VIDA CON
                 <span>DOBLE ALTURA</span> EN TU <br /> NUEVA DEPA
               </Subtitle>
             </div>
