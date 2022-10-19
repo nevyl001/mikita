@@ -7,10 +7,15 @@
   z-index: 999;
   font-size: 18px;
   border-bottom: 1px solid white;
+  background-color: red;
   align-items: center;
   display: flex;
-  background-color: transparent;
 }
+
+.menu_scroll {
+  background-color: trans;
+}
+
 .menu .imagen {
   cursor: pointer;
   margin: 0 auto;

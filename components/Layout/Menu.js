@@ -1,14 +1,30 @@
 import styles from "./Menu.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import { Fragment, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 
 function Menu() {
+  const [show, setShow] = useState(true);
+  const controlMenu = () => {
+    if (window.scrollY > 100) {
+      setShow(true);
+    } else {
+      setShow(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", controlMenu);
+    return () => {
+      window.removeEventListener("scroll", controlMenu);
+    };
+  }, []);
+
   return (
     <Fragment>
-      <nav className={styles.menu}>
-        <div className={styles.menu_left}>
-          <div className={styles.imagen}>
+      <nav className={` menu  ${show && " menu_black"}`}>
+        <div className="menu_left">
+          <div className="imagen">
             <Link href="/">
               <Image
                 src="/imgs/logoal.png"
@@ -19,8 +35,8 @@ function Menu() {
             </Link>
           </div>
         </div>
-        <div className={styles.menu_right}>
-          <div className={styles.links}>
+        <div className="menu_right">
+          <div className="links">
             <Link href="/">
               <a>Home</a>
             </Link>
@@ -37,7 +53,7 @@ function Menu() {
               <a>PORQUÉ MIKITA</a>
             </Link>
           </div>
-          <div className={styles.socials}>
+          <div className="socials">
             <a href="#" title="whatsapp">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
