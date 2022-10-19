@@ -1,4 +1,3 @@
-import styles from "./Menu.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import { Fragment, useEffect, useState } from "react";
@@ -22,7 +21,7 @@ function Menu() {
 
   return (
     <Fragment>
-      <nav className={` menu  ${show && " menu_transp"}`}>
+      <nav className={` menu  ${show && "menu_transp"}`}>
         <div className="menu_left">
           <div className="imagen">
             <Link href="/">
