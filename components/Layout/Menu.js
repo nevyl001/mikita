@@ -7,9 +7,9 @@ function Menu() {
   const [show, setShow] = useState(true);
   const controlMenu = () => {
     if (window.scrollY > 100) {
-      setShow(true);
-    } else {
       setShow(false);
+    } else {
+      setShow(true);
     }
   };
 
@@ -22,7 +22,7 @@ function Menu() {
 
   return (
     <Fragment>
-      <nav className={` menu  ${show && " menu_black"}`}>
+      <nav className={` menu  ${show && " menu_transp"}`}>
         <div className="menu_left">
           <div className="imagen">
             <Link href="/">
