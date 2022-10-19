@@ -23,7 +23,6 @@ main {
 .container {
   margin: 0 auto;
 }
-
 .menu {
   position: fixed;
   top: 0;
@@ -37,12 +36,11 @@ main {
   border-bottom: 1px solid white;
   align-items: center;
   display: flex;
-  background-color: black;
-}
-.menu_transp {
   background-color: transparent;
 }
-
+.menu_black {
+  background-color: black;
+}
 .menu .imagen {
   cursor: pointer;
   margin: 0 auto;
