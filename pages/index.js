@@ -216,11 +216,11 @@ export default function Home() {
               Grande con barra al centro tipo isla, para que cocines
               cómodamente.
             </Paragraph>
-          </div>
-          <div className={styles.ov_btn_slide_close}>
-            <Link href="/">
-              <a>SABER MÁS</a>
-            </Link>
+            <div className={styles.ov_btn_slide_close}>
+              <Link href="/">
+                <a>SABER MÁS</a>
+              </Link>
+            </div>
           </div>
         </div>
         <div className={styles.elige_right}>
@@ -255,11 +255,11 @@ export default function Home() {
               Innovador por su diseño de doble altura. Ideal para inversión con
               alto rendimiento o inversión patrimonial.
             </Paragraph>
-          </div>
-          <div className={styles.ov_btn_slide_close}>
-            <Link href="/">
-              <a>SABER MÁS</a>
-            </Link>
+            <div className={styles.ov_btn_slide_close}>
+              <Link href="/">
+                <a>SABER MÁS</a>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

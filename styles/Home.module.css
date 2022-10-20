@@ -121,13 +121,13 @@
 }
 .town_logo {
   position: absolute;
-  top: 0px;
+  top: 50px;
   left: 0px;
   width: 15%;
 }
 .elige {
-  margin-bottom: 100px;
   margin: 0 auto;
+  margin-bottom: 200px;
   gap: 25px;
   width: 60%;
   display: flex;
@@ -181,7 +181,7 @@
   background-color: #ffcf00;
 }
 .elige .text {
-  height: 380px;
+  height: 450px;
   padding: 20px 20px;
   background-color: #212121;
 }
@@ -190,8 +190,7 @@
 }
 .elige .ov_btn_slide_close {
   cursor: pointer;
-  margin-bottom: 100px;
-  margin-left: 20px;
+  margin-top: 20px;
 }
 /* seccion video */
 .video {
