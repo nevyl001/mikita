@@ -3,10 +3,11 @@ import Link from "next/link";
 import Paragraph from "../components/UI/Paragraph";
 import Subtitle from "../components/UI/Subtitle";
 import Title from "../components/UI/Title";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import styles from "../styles/Home.module.css";
+import { useInView } from "react-intersection-observer";
 
 const HEADER_IMAGES = [
   {
@@ -39,11 +40,34 @@ const HEADER_IMAGES = [
 ];
 
 export default function Home() {
+  const controlMenu = () => {
+    if (window.scrollY < 800) {
+      setLogoActive(false);
+    }
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", controlMenu);
+    return () => {
+      window.removeEventListener("scroll", controlMenu);
+    };
+  }, []);
+
+  const [logoActive, setLogoActive] = useState(false);
+  const { ref, inView, entry } = useInView({
+    /* Optional options */
+    threshold: 0,
+  });
+
+  useEffect(() => {
+    if (inView) {
+      setLogoActive(true);
+    }
+  }, [inView]);
+
   return (
     <main className={styles.main}>
       <div className={styles.carousel}>
         <div className={styles.contenido}></div>
-
         <Carousel
           showStatus={false}
           autoPlay={true}
@@ -170,95 +194,85 @@ export default function Home() {
         <Title size="medium" color="white">
           ELIGE TU ESTILO
         </Title>
-        <div className={styles.town_logo}>
-          <div className={styles.logo}>
-            <Image
-              src="/imgs/logomi.png"
-              alt="im-logo"
-              width={1080}
-              height={1080}
-            />
-          </div>
-        </div>
       </div>
-
       <div className={styles.elige}>
-        <div className={styles.elige_left}>
-          <div className={styles.imagen}>
-            <Image
-              src="/imgs/mhouse.jpg"
-              alt="im-house"
-              width={4056}
-              height={3040}
-            />
-            <div className={styles.top_content}>
-              <div className={styles.top_text1}>Tsuika</div>
-              <div className={styles.top_text2}>$2,490,000</div>
+        <div className="elige-item">
+          <div className="image image-1">
+            <div className="top">
+              <div className="label">
+                <div className="black">Double</div>
+                <div className="yellow">$2,190,000</div>
+              </div>
             </div>
-            <div className={styles.bottom_content}>
-              <div className={styles.top_text1}>Sugoi</div>
-              <div className={styles.top_text2}>$2,490,000</div>
+            <div className="bottom">
+              <div className="label">
+                <div className="black">Flat</div>
+                <div className="yellow">$1,690,000</div>
+              </div>
             </div>
           </div>
-          <div className={styles.text}>
-            <Title size="medium_1" color="white">
-              MIKITA HOUSE
-            </Title>
-            <Paragraph>Concepto minimalista, robusto y elegante. </Paragraph>
-            <Paragraph>Se adapta al estilo de vida de tu familia.</Paragraph>
-            <Paragraph>
-              <span>Modelo Tsuika:</span> Se caracteriza por tener un Cuarto
-              Adicional en planta baja, puedes usarlo como cuarto de estudio,
-              home office, cuarto de yoga, etc.
-            </Paragraph>
-            <Paragraph>
-              <span>Modelo Sugoi:</span> Se caracteriza por tener una Cocina
-              Grande con barra al centro tipo isla, para que cocines
-              cómodamente.
-            </Paragraph>
-            <div className={styles.ov_btn_slide_close}>
-              <Link href="/">
-                <a>SABER MÁS</a>
-              </Link>
+          <div className="content">
+            <div className="text-1">MIKITA HOUSE</div>
+            <div className="text-2">
+              <p>Concepto minimalista, robusto y elegante.</p>
+              <p>Se adapta al estilo de vida de tu familia.</p>
+              <p>
+                <span>Modelo Tsuika:</span> Se caracteriza por tener un Cuarto
+                Adicional en planta baja, puedes usarlo como cuarto de estudio,
+                home office, cuarto de yoga, etc.
+              </p>
+              <p>
+                <span>Modelo Sugoi:</span> Se caracteriza por tener una Cocina
+                Grande con barra al centro tipo isla, para que cocines
+                cómodamente.
+              </p>
+              <div className="button-box">
+                <div className={styles.ov_btn_slide_close}>
+                  <Link href="/">
+                    <a>SABER MÁS</a>
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div className={styles.elige_right}>
-          <div className={styles.imagen}>
-            <Image
-              src="/imgs/dabu.jpg"
-              alt="im-house"
-              width={4056}
-              height={3040}
-            />
-            <div className={styles.top_content2}>
-              <div className={styles.top_text1}>Double</div>
-              <div className={styles.top_text2}>$2,190,000</div>
+        <div className="elige-item">
+          <div className="image image-1">
+            <div className="top">
+              <div className="label">
+                <div className="black">Double</div>
+                <div className="yellow">$2,190,000</div>
+              </div>
             </div>
-            <div className={styles.bottom_content2}>
-              <div className={styles.top_text1}>Flat</div>
-              <div className={styles.top_text2}>$1,690,000</div>
+            <div className="bottom">
+              <div className="label">
+                <div className="black">Flat</div>
+                <div className="yellow">$1,690,000</div>
+              </div>
             </div>
           </div>
-          <div className={styles.text}>
-            <Title size="medium_1" color="white">
-              DABURÚ
-            </Title>
-            <Paragraph>Concepto minimalista y muy amplio.</Paragraph>
-            <Paragraph>
-              <span>Modelo &quot;Un Piso&quot;:</span> Con amplio espacio para
-              jardín y terraza. El espacio más económico por metro cuadrado vs.
-              la oferta de departamentos en Querétaro.
-            </Paragraph>
-            <Paragraph>
-              <span>Modelo &quot;Doble Altura&quot;: </span> Con amplia terraza.
-              Innovador por su diseño de doble altura. Ideal para inversión con
-              alto rendimiento o inversión patrimonial.
-            </Paragraph>
-            <div className={styles.ov_btn_slide_close}>
-              <Link href="/">
-                <a>SABER MÁS</a>
-              </Link>
+          <div className="content">
+            <div className="text-1">MIKITA HOUSE</div>
+            <div className="text-2">
+              <p>Concepto minimalista, robusto y elegante.</p>
+              <p>Se adapta al estilo de vida de tu familia.</p>
+              <p>
+                <span>Modelo Tsuika:</span> Se caracteriza por tener un Cuarto
+                Adicional en planta baja, puedes usarlo como cuarto de estudio,
+                home office, cuarto de yoga, etc.
+              </p>
+              <p>
+                <span>Modelo Sugoi:</span> Se caracteriza por tener una Cocina
+                Grande con barra al centro tipo isla, para que cocines
+                cómodamente.
+              </p>
+              <div className="button-box">
+                <div className={styles.ov_btn_slide_close}>
+                  <Link href="/">
+                    <a>SABER MÁS</a>
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -296,12 +310,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      {/* MikiTown */}
-
-      <div className={styles.town}>
-        <div className={styles.town_logo}>
-          <div className={styles.logo}>
+      <div className={styles.town} ref={ref}>
+        {logoActive && (
+          <div className="extra-logo-fixed">
             <Image
               src="/imgs/logomi.png"
               alt="im-logo"
@@ -309,19 +320,14 @@ export default function Home() {
               height={1080}
             />
           </div>
-        </div>
+        )}
         <div className={styles.town_text}>
           <Title size="medium" color="white">
             MIKITA TOWN
           </Title>
-          <Subtitle size="medium" color="white">
-            EMPIEZA UN NUEVO ESTILO DE VIDA
-          </Subtitle>
+          <div className="subtitulo-1">EMPIEZA UN NUEVO ESTILO DE VIDA</div>
         </div>
       </div>
-
-      {/* image content 0 */}
-
       <div className={styles.image_container}>
         <div
           className={styles.imagen_item1}
@@ -336,9 +342,6 @@ export default function Home() {
           }}
         ></div>
       </div>
-
-      {/*  imante content 1  */}
-
       <div className={styles.image_container1}>
         <div className={styles.box_left}>
           <div
@@ -375,9 +378,6 @@ export default function Home() {
           ></div>
         </div>
       </div>
-
-      {/*  imante content 2  */}
-
       <div className={styles.image_container2}>
         <div
           className={styles.imagen_item1}
@@ -392,8 +392,6 @@ export default function Home() {
           }}
         ></div>
       </div>
-      {/*  imante content 3 */}
-
       <div className={styles.image_container3}>
         <div
           className={styles.imagen_item1}
@@ -402,9 +400,6 @@ export default function Home() {
           }}
         ></div>
       </div>
-
-      {/*  imante content 4 */}
-
       <div className={styles.image_container4}>
         <div
           className={styles.imagen_item1}
@@ -413,9 +408,6 @@ export default function Home() {
           }}
         ></div>
       </div>
-
-      {/*  imante content 5 */}
-
       <div className={styles.image_container5}>
         <div className={styles.box_left}>
           <div
@@ -440,9 +432,6 @@ export default function Home() {
           ></div>
         </div>
       </div>
-
-      {/* comments */}
-
       <div className={styles.coments}>
         <div className={styles.imagen}>
           <div
@@ -527,7 +516,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* desarrollado por */}
       <div className={styles.desarrollo}>
         <div className={styles.left}>
           <div className={styles.img}>

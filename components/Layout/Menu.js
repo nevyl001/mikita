@@ -4,11 +4,15 @@ import { Fragment, useEffect, useState } from "react";
 
 function Menu() {
   const [show, setShow] = useState(false);
+  const [hide, setHide] = useState(false);
+
   const controlMenu = () => {
     if (window.scrollY < 100) {
       setShow(false);
+      setHide(false);
     } else {
       setShow(true);
+      setHide(true);
     }
   };
 
@@ -19,9 +23,27 @@ function Menu() {
     };
   }, []);
 
+  let oldScrollY = 0;
+
+  const controlDirection = () => {
+    if (window.scrollY > oldScrollY) {
+      setHide(true);
+    } else {
+      setHide(false);
+    }
+    oldScrollY = window.scrollY;
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", controlDirection);
+    return () => {
+      window.removeEventListener("scroll", controlDirection);
+    };
+  }, []);
+
   return (
     <Fragment>
-      <nav className={` menu  ${show && "menu_black"}`}>
+      <nav className={` menu  ${show && "menu_black"} ${hide && "menu_hide"}`}>
         <div className="menu_left">
           <div className="imagen">
             <Link href="/">
