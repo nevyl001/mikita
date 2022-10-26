@@ -10,16 +10,6 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.foo_text}>
-        <div className={styles.town_logo}>
-          <div className={styles.logo}>
-            <Image
-              src="/imgs/logomi.png"
-              alt="im-logo"
-              width={1080}
-              height={1080}
-            />
-          </div>
-        </div>
         <Title size="medium" color="white">
           AGENDA UNA CITA
         </Title>
