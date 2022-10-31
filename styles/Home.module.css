@@ -291,6 +291,8 @@
   background-size: cover;
 }
 .image_container .imagen_item2 {
+  position: relative;
+  overflow: hidden;
   width: 40%;
   height: 600px;
   background-position: right center;
