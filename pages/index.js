@@ -41,7 +41,7 @@ const HEADER_IMAGES = [
 
 export default function Home() {
   const controlMenu = () => {
-    if (window.scrollY < 800) {
+    if (window.scrollY < 1000) {
       setLogoActive(false);
     }
   };
@@ -195,7 +195,7 @@ export default function Home() {
           ELIGE TU ESTILO
         </Title>
       </div>
-      <div className={styles.elige}>
+      <div className={styles.elige} ref={ref}>
         <div className="elige-item">
           <div className="image image-1">
             <div className="top">
@@ -310,7 +310,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className={styles.town} ref={ref}>
+      <div className={styles.town}>
         {logoActive && (
           <div className="extra-logo-fixed">
             <Image
@@ -335,12 +335,18 @@ export default function Home() {
             backgroundImage: `url(/imgs/pici.jpeg)`,
           }}
         ></div>
-        <div
-          className={styles.imagen_item2}
-          style={{
-            backgroundImage: `url(/imgs/gym.jpeg)`,
-          }}
-        ></div>
+        <div className={`image-box ${styles.imagen_item2}`}>
+          <div
+            className="image gallery-effect"
+            style={{
+              backgroundImage: `url(/imgs/gym.jpeg)`,
+            }}
+          />
+          <div className="image-content">
+            <div className="title">Title</div>
+            <div className="subtitle">lorem ipsum dolor sit amet</div>
+          </div>
+        </div>
       </div>
       <div className={styles.image_container1}>
         <div className={styles.box_left}>
