@@ -177,6 +177,13 @@ main {
   width: 100%;
   height: 100%;
 }
+.gallery-effect.image1 {
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  width: 20%;
+  height: 80%;
+}
 .image-content {
   position: absolute;
   bottom: -200px;
@@ -187,6 +194,9 @@ main {
   color: white;
   transition-duration: 0.2s;
 }
+.image-content1 {
+}
+
 .image-content .title {
   text-transform: uppercase;
   font-weight: 900;
