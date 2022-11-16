@@ -329,12 +329,22 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.image_container}>
-        <div
-          className={styles.imagen_item1}
-          style={{
-            backgroundImage: `url(/imgs/pici.jpeg)`,
-          }}
-        ></div>
+        <div className={`image-box ${styles.imagen_item1}`}>
+          <div
+            className="image gallery-effect"
+            style={{
+              backgroundImage: `url(/imgs/pici.jpeg)`,
+            }}
+          />
+          <div className="image-content">
+            <div className="title">Amenidades excepcionales.</div>
+            <div className="subtitle">
+              Cumple tus deseos y eleva tus experiencias. Vive los momentos más
+              exquisitos en las amenidades de Mikita Town.
+            </div>
+          </div>
+        </div>
+
         <div className={`image-box ${styles.imagen_item2}`}>
           <div
             className="image gallery-effect"
@@ -343,8 +353,11 @@ export default function Home() {
             }}
           />
           <div className="image-content">
-            <div className="title">Title</div>
-            <div className="subtitle">lorem ipsum dolor sit amet</div>
+            <div className="title">Amenidades excepcionales.</div>
+            <div className="subtitle">
+              Cumple tus deseos y eleva tus experiencias. Vive los momentos más
+              exquisitos en las amenidades de Mikita Town.
+            </div>
           </div>
         </div>
       </div>

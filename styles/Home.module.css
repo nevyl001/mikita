@@ -285,6 +285,8 @@
   display: flex;
 }
 .image_container .imagen_item1 {
+  position: relative;
+  overflow: hidden;
   width: 60%;
   height: 600px;
   background-position: center center;
