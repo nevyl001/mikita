@@ -90,7 +90,7 @@ main {
 .extra-logo-fixed {
   position: fixed;
   top: 100px;
-  left: 40px;
+  left: 25px;
   width: 250px;
   z-index: 999;
 }
@@ -186,15 +186,13 @@ main {
 }
 .image-content {
   position: absolute;
-  bottom: -200px;
+  bottom: -300px;
   left: 0;
   width: 100%;
   background-color: #212121;
   padding: 30px;
   color: white;
   transition-duration: 0.2s;
-}
-.image-content1 {
 }
 
 .image-content .title {
@@ -212,9 +210,9 @@ main {
   filter: gray; /* IE */
   -webkit-filter: grayscale(1); /* Old WebKit */
   transform: scale(1.2);
-  transition-duration: 0.2s;
+  transition-duration: 0.4s;
 }
 .image-box:hover .image-content {
   bottom: 0;
-  transition-duration: 0.2s;
+  transition-duration: 0.4s;
 }

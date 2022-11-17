@@ -361,94 +361,196 @@ export default function Home() {
           </div>
         </div>
       </div>
+
       <div className={styles.image_container1}>
         <div className={styles.box_left}>
-          <div
-            className={styles.imagen_item1}
-            style={{
-              backgroundImage: `url(/imgs/bar1.jpeg)`,
-            }}
-          ></div>
+          <div className={`image-box ${styles.imagen_item1}`}>
+            <div
+              className="image gallery-effect"
+              style={{
+                backgroundImage: `url(/imgs/bar1.jpeg)`,
+              }}
+            />
+            <div className="image-content">
+              <div className="title">Amenidades excepcionales.</div>
+              <div className="subtitle">
+                Cumple tus deseos y eleva tus experiencias. Vive los momentos
+                más exquisitos en las amenidades de Mikita Town.
+              </div>
+            </div>
+          </div>
+
           <div className={styles.box_in}>
             <div className={styles.box_in_left}>
-              <div
-                className={styles.imagen_item2}
-                style={{
-                  backgroundImage: `url(/imgs/gym1.jpeg)`,
-                }}
-              ></div>
+              <div className={`image-box ${styles.imagen_item2}`}>
+                <div
+                  className="image gallery-effect"
+                  style={{
+                    backgroundImage: `url(/imgs/gym1.jpeg)`,
+                  }}
+                />
+                <div className="image-content">
+                  <div className="title">Amenidades excepcionales.</div>
+                  <div className="subtitle">
+                    Cumple tus deseos y eleva tus experiencias. Vive los
+                    momentos más exquisitos en las amenidades de Mikita Town.
+                  </div>
+                </div>
+              </div>
             </div>
             <div className={styles.box_in_right}>
-              <div
-                className={styles.imagen_item2}
-                style={{
-                  backgroundImage: `url(/imgs/gym2.jpeg)`,
-                }}
-              ></div>
+              <div className={`image-box ${styles.imagen_item2}`}>
+                <div
+                  className="image gallery-effect"
+                  style={{
+                    backgroundImage: `url(/imgs/gym2.jpeg)`,
+                  }}
+                />
+                <div className="image-content">
+                  <div className="title">Amenidades excepcionales.</div>
+                  <div className="subtitle">
+                    Cumple tus deseos y eleva tus experiencias. Vive los
+                    momentos más exquisitos en las amenidades de Mikita Town.
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div className={styles.box_right}>
-          <div
-            className={styles.imagen_item4}
-            style={{
-              backgroundImage: `url(/imgs/bar2.jpeg)`,
-            }}
-          ></div>
+          <div className={`image-box ${styles.imagen_item4}`}>
+            <div
+              className="image gallery-effect"
+              style={{
+                backgroundImage: `url(/imgs/bar2.jpeg)`,
+              }}
+            />
+            <div className="image-content">
+              <div className="title">Amenidades excepcionales.</div>
+              <div className="subtitle">
+                Cumple tus deseos y eleva tus experiencias. Vive los momentos
+                más exquisitos en las amenidades de Mikita Town.
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div className={styles.image_container2}>
-        <div
-          className={styles.imagen_item1}
-          style={{
-            backgroundImage: `url(/imgs/ameninew.png)`,
-          }}
-        ></div>
-        <div
-          className={styles.imagen_item2}
-          style={{
-            backgroundImage: `url(/imgs/sillon.jpeg)`,
-          }}
-        ></div>
+        <div className={`image-box ${styles.imagen_item1}`}>
+          <div
+            className="image gallery-effect"
+            style={{
+              backgroundImage: `url(/imgs/ameninew.png)`,
+            }}
+          />
+          <div className="image-content">
+            <div className="title">Amenidades excepcionales.</div>
+            <div className="subtitle">
+              Cumple tus deseos y eleva tus experiencias. Vive los momentos más
+              exquisitos en las amenidades de Mikita Town.
+            </div>
+          </div>
+        </div>
+
+        <div className={`image-box ${styles.imagen_item2}`}>
+          <div
+            className="image gallery-effect"
+            style={{
+              backgroundImage: `url(/imgs/sillon.jpeg)`,
+            }}
+          />
+          <div className="image-content">
+            <div className="title">Amenidades excepcionales.</div>
+            <div className="subtitle">
+              Cumple tus deseos y eleva tus experiencias. Vive los momentos más
+              exquisitos en las amenidades de Mikita Town.
+            </div>
+          </div>
+        </div>
       </div>
       <div className={styles.image_container3}>
-        <div
-          className={styles.imagen_item1}
-          style={{
-            backgroundImage: `url(/imgs/balcon.png)`,
-          }}
-        ></div>
+        <div className={`image-box ${styles.imagen_item1}`}>
+          <div
+            className="image gallery-effect"
+            style={{
+              backgroundImage: `url(/imgs/balcon.png)`,
+            }}
+          />
+          <div className="image-content">
+            <div className="title">Amenidades excepcionales.</div>
+            <div className="subtitle">
+              Cumple tus deseos y eleva tus experiencias. Vive los momentos más
+              exquisitos en las amenidades de Mikita Town.
+            </div>
+          </div>
+        </div>
       </div>
       <div className={styles.image_container4}>
-        <div
-          className={styles.imagen_item1}
-          style={{
-            backgroundImage: `url(/imgs/imright.png)`,
-          }}
-        ></div>
+        <div className={`image-box ${styles.imagen_item1}`}>
+          <div
+            className="image gallery-effect"
+            style={{
+              backgroundImage: `url(/imgs/imright.png)`,
+            }}
+          />
+          <div className="image-content">
+            <div className="title">Amenidades excepcionales.</div>
+            <div className="subtitle">
+              Cumple tus deseos y eleva tus experiencias. Vive los momentos más
+              exquisitos en las amenidades de Mikita Town.
+            </div>
+          </div>
+        </div>
       </div>
       <div className={styles.image_container5}>
         <div className={styles.box_left}>
-          <div
-            className={styles.imagen_item1}
-            style={{
-              backgroundImage: `url(/imgs/asado.png)`,
-            }}
-          ></div>
+          <div className={`image-box ${styles.imagen_item1}`}>
+            <div
+              className="image gallery-effect"
+              style={{
+                backgroundImage: `url(/imgs/asado.png)`,
+              }}
+            />
+            <div className="image-content">
+              <div className="title">Amenidades excepcionales.</div>
+              <div className="subtitle">
+                Cumple tus deseos y eleva tus experiencias. Vive los momentos
+                más exquisitos en las amenidades de Mikita Town.
+              </div>
+            </div>
+          </div>
         </div>
         <div className={styles.box_right}>
-          <div
-            className={styles.imagen_item2}
-            style={{
-              backgroundImage: `url(/imgs/juegos.png)`,
-            }}
-          ></div>
-          <div
-            className={styles.imagen_item3}
-            style={{
-              backgroundImage: `url(/imgs/cine.png)`,
-            }}
-          ></div>
+          <div className={`image-box ${styles.imagen_item2}`}>
+            <div
+              className="image gallery-effect"
+              style={{
+                backgroundImage: `url(/imgs/juegos.png)`,
+              }}
+            />
+            <div className="image-content">
+              <div className="title">Amenidades excepcionales.</div>
+              <div className="subtitle">
+                Cumple tus deseos y eleva tus experiencias. Vive los momentos
+                más exquisitos en las amenidades de Mikita Town.
+              </div>
+            </div>
+          </div>
+          <div className={`image-box ${styles.imagen_item3}`}>
+            <div
+              className="image gallery-effect"
+              style={{
+                backgroundImage: `url(/imgs/cine.png)`,
+              }}
+            />
+            <div className="image-content">
+              <div className="title">Amenidades excepcionales.</div>
+              <div className="subtitle">
+                Cumple tus deseos y eleva tus experiencias. Vive los momentos
+                más exquisitos en las amenidades de Mikita Town.
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div className={styles.coments}>
