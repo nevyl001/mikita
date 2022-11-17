@@ -419,7 +419,7 @@ export default function depas() {
       </div>
       {/* comments */}
 
-      <div className={styles.coments}>
+      {/* <div className={styles.coments}>
         <div className={styles.imagen}>
           <div
             className={styles.item1}
@@ -502,7 +502,7 @@ export default function depas() {
             <Paragraph>Residente</Paragraph>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* desarrollado por */}
       <div className={styles.desarrollo}>
         <div className={styles.left}>

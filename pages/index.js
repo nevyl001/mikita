@@ -553,7 +553,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className={styles.coments}>
+      {/* <div className={styles.coments}>
         <div className={styles.imagen}>
           <div
             className={styles.item1}
@@ -636,7 +636,7 @@ export default function Home() {
             <Paragraph>Residente</Paragraph>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className={styles.desarrollo}>
         <div className={styles.left}>
           <div className={styles.img}>
