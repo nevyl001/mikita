@@ -493,8 +493,9 @@
 }
 /* desarrollo */
 .desarrollo {
+  margin-top: 50px;
   gap: 20px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   display: flex;
 }
 .desarrollo .left {
