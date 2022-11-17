@@ -315,12 +315,16 @@
   width: 50%;
 }
 .image_container1 .imagen_item1 {
+  position: relative;
+  overflow: hidden;
   margin-bottom: 10px;
   height: 190px;
   background-position: center center;
   background-size: cover;
 }
 .image_container1 .imagen_item4 {
+  position: relative;
+  overflow: hidden;
   height: 600px;
   background-position: center center;
   background-size: cover;
@@ -336,6 +340,8 @@
   width: 50%;
 }
 .image_container1 .imagen_item2 {
+  position: relative;
+  overflow: hidden;
   height: 400px;
   background-position: center center;
   background-size: cover;
@@ -354,12 +360,16 @@
   margin: 0 auto;
 }
 .image_container2 .imagen_item1 {
+  position: relative;
+  overflow: hidden;
   width: 50%;
   height: 400px;
   background-position: center center;
   background-size: cover;
 }
 .image_container2 .imagen_item2 {
+  position: relative;
+  overflow: hidden;
   width: 50%;
   height: 400px;
   background-position: center center;
@@ -374,6 +384,8 @@
   margin: 0 auto;
 }
 .image_container3 .imagen_item1 {
+  position: relative;
+  overflow: hidden;
   height: 300px;
   background-position: center center;
   background-size: cover;
@@ -386,6 +398,8 @@
   margin: 0 auto;
 }
 .image_container4 .imagen_item1 {
+  position: relative;
+  overflow: hidden;
   height: 300px;
   background-position: center center;
   background-size: cover;
@@ -409,17 +423,23 @@
   width: 50%;
 }
 .image_container5 .imagen_item1 {
+  position: relative;
+  overflow: hidden;
   height: 500px;
   background-position: center center;
   background-size: cover;
 }
 
 .image_container5 .imagen_item2 {
+  position: relative;
+  overflow: hidden;
   height: 245px;
   background-position: center center;
   background-size: cover;
 }
 .image_container5 .imagen_item3 {
+  position: relative;
+  overflow: hidden;
   height: 245px;
   background-position: center center;
   background-size: cover;
