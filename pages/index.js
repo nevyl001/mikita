@@ -197,23 +197,23 @@ export default function Home() {
       </div>
       <div className={styles.elige} ref={ref}>
         <div className="elige-item">
-          <div className="image image-1">
-            <div className="top">
+          <div className="image1 image-1">
+            <div className="top1">
               <div className="label">
-                <div className="black">Double</div>
-                <div className="yellow">$2,190,000</div>
+                <div className="black">Tsuika</div>
+                <div className="yellow">$2,490,000</div>
               </div>
             </div>
-            <div className="bottom">
+            <div className="bottom1">
               <div className="label">
-                <div className="black">Flat</div>
-                <div className="yellow">$1,690,000</div>
+                <div className="black ">Sugoi</div>
+                <div className="yellow">$2,490,000</div>
               </div>
             </div>
           </div>
           <div className="content">
             <div className="text-1">MIKITA HOUSE</div>
-            <div className="text-2">
+            <div className="text-2 text">
               <p>Concepto minimalista, robusto y elegante.</p>
               <p>Se adapta al estilo de vida de tu familia.</p>
               <p>
@@ -252,19 +252,19 @@ export default function Home() {
             </div>
           </div>
           <div className="content">
-            <div className="text-1">MIKITA HOUSE</div>
+            <div className="text-1">DABURÚ</div>
             <div className="text-2">
-              <p>Concepto minimalista, robusto y elegante.</p>
+              <p>Concepto minimalista y muy amplio.</p>
               <p>Se adapta al estilo de vida de tu familia.</p>
               <p>
-                <span>Modelo Tsuika:</span> Se caracteriza por tener un Cuarto
-                Adicional en planta baja, puedes usarlo como cuarto de estudio,
-                home office, cuarto de yoga, etc.
+                <span>Un Piso:</span> Con amplio espacio para jardín y terraza.
+                El espacio más económico por metro cuadrado vs. la oferta de
+                departamentos en Querétaro.
               </p>
               <p>
-                <span>Modelo Sugoi:</span> Se caracteriza por tener una Cocina
-                Grande con barra al centro tipo isla, para que cocines
-                cómodamente.
+                <span>Doble Altura:</span> Con amplia terraza. Innovador por su
+                diseño de doble altura. Ideal para inversión con alto
+                rendimiento o inversión patrimonial.
               </p>
               <div className="button-box">
                 <div className={styles.ov_btn_slide_close}>

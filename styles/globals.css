@@ -94,7 +94,6 @@ main {
   width: 250px;
   z-index: 999;
 }
-
 .elige-item {
   background-color: #212121;
   width: 500px;
@@ -107,6 +106,21 @@ main {
   background-size: cover;
   padding: 20px;
   transition-duration: 0.2s;
+}
+.elige-item .image1 {
+  background-image: url("/imgs/mhouse.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+  transition-duration: 0.2s;
+}
+.elige-item .top1 {
+  text-align: left;
+  margin-bottom: 250px;
+  transition-duration: 0.2s;
+}
+.elige-item .bottom1 {
+  text-align: right;
 }
 .elige-item .top {
   text-align: right;
@@ -140,12 +154,20 @@ main {
 .elige-item .content .text-2 {
   font-size: 20px;
 }
+.elige-item .content .text-2 span {
+  color: #ffcf00;
+}
+
 .elige-item .content .button-box {
   position: relative;
   bottom: -100px;
   transition-duration: 0.2s;
 }
 .elige-item:hover .top {
+  margin-bottom: 150px;
+  transition-duration: 0.2s;
+}
+.elige-item:hover .top1 {
   margin-bottom: 150px;
   transition-duration: 0.2s;
 }
