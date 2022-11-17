@@ -207,7 +207,7 @@ export default function Home() {
             <div className="bottom1">
               <div className="label">
                 <div className="black ">Sugoi</div>
-                <div className="yellow">$1,690,000</div>
+                <div className="yellow">$2,490,000</div>
               </div>
             </div>
           </div>
