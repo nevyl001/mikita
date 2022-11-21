@@ -107,7 +107,7 @@ export default function casas() {
           <div className={styles.box_right}>
             <div className={styles.imagen}>
               <Image
-                src="/imgs/casas/plus01.png"
+                src="/imgs/casas/plu128.png"
                 alt="im-casa"
                 width={590}
                 height={988}
@@ -229,7 +229,7 @@ export default function casas() {
           <div className={styles.box_right}>
             <div className={styles.imagen}>
               <Image
-                src="/imgs/casas/plus01.png"
+                src="/imgs/casas/plu128.png"
                 alt="im-casa"
                 width={590}
                 height={1000}
@@ -310,7 +310,7 @@ export default function casas() {
           <div className={styles.box_right}>
             <div className={styles.imagen}>
               <Image
-                src="/imgs/casas/cocime2.png"
+                src="/imgs/casas/me128.png"
                 alt="im-casa"
                 width={600}
                 height={1000}
@@ -430,7 +430,7 @@ export default function casas() {
           <div className={styles.box_right}>
             <div className={styles.imagen}>
               <Image
-                src="/imgs/casas/cocime2.png"
+                src="/imgs/casas/me128.png"
                 alt="im-casa"
                 width={600}
                 height={1000}
@@ -558,7 +558,7 @@ export default function casas() {
               src="/imgs/logoal.png"
               alt="im-logo"
               width={295}
-              height={65}
+              height={85}
             />
           </div>
         </div>
@@ -568,7 +568,7 @@ export default function casas() {
           </div>
         </div>
         <div className={styles.img}>
-          <Image src="/imgs/LoAgi.png" alt="im-logo" width={100} height={65} />
+          <Image src="/imgs/LoAgi.png" alt="im-logo" width={100} height={85} />
         </div>
       </div>
 

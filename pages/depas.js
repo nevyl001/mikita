@@ -511,7 +511,7 @@ export default function depas() {
               src="/imgs/logoal.png"
               alt="im-logo"
               width={295}
-              height={65}
+              height={85}
             />
           </div>
         </div>
@@ -521,7 +521,7 @@ export default function depas() {
           </div>
         </div>
         <div className={styles.img}>
-          <Image src="/imgs/LoAgi.png" alt="im-logo" width={100} height={65} />
+          <Image src="/imgs/LoAgi.png" alt="im-logo" width={100} height={85} />
         </div>
       </div>
 
