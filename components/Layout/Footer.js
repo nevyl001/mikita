@@ -8,7 +8,7 @@ import Title from "../UI/Title";
 
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
+    <footer id="contacto" className={styles.footer}>
       <div className={styles.foo_text}>
         <Title size="medium" color="white">
           AGENDA UNA CITA

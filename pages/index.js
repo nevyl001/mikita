@@ -12,27 +12,27 @@ import { useInView } from "react-intersection-observer";
 const HEADER_IMAGES = [
   {
     id: 1,
-    image: "im1.jpg",
+    image: "im1ne.png",
     text1: "ESTÁS MÁS CERCA DE",
     text2: "TU NUEVA CASA O NUEVO DEPA",
   },
   {
     id: 2,
-    image: "im2.jpg",
+    image: "img2.png",
     text1: "EMPIEZA UN NUEVO ESTILO DE VIDA EN",
     text2: "TU NUEVA CASA",
     text3: "ENTREGA INMEDIATA Y PREVENTA",
   },
   {
     id: 3,
-    image: "im3.jpeg",
+    image: "img3.png",
     text1: "EMPIEZA UN NUEVO ESTILO DE VIDA EN",
     text2: "TU NUEVO DEPA",
     text3: "ENTREGA INMEDIATA Y PREVENTA",
   },
   {
     id: 4,
-    image: "ameninew.png",
+    image: "pici2.png",
     text1: "EMPIEZA UN NUEVO ESTILO DE VIDA EN",
     text2: "MIKITA TOWN",
     text3: "ENTREGA INMEDIATA Y PREVENTA",
@@ -97,7 +97,7 @@ export default function Home() {
                       {item.text3}
                     </Subtitle>
                     <div className={styles.ov_btn_slide_close}>
-                      <Link href="/">
+                      <Link href="#porque">
                         <a>QUIERO SABER MÁS</a>
                       </Link>
                     </div>
@@ -185,7 +185,7 @@ export default function Home() {
       </div>
       <div className={styles.btn_porque}>
         <div className={styles.ov_btn_slide_close}>
-          <Link href="/">
+          <Link href="#contacto">
             <a>QUIERO MÁS INFORMACIÓN</a>
           </Link>
         </div>
@@ -228,7 +228,7 @@ export default function Home() {
               </p>
               <div className="button-box">
                 <div className={styles.ov_btn_slide_close}>
-                  <Link href="/">
+                  <Link href="/casas">
                     <a>SABER MÁS</a>
                   </Link>
                 </div>
@@ -268,7 +268,7 @@ export default function Home() {
               </p>
               <div className="button-box">
                 <div className={styles.ov_btn_slide_close}>
-                  <Link href="/">
+                  <Link href="/casas">
                     <a>SABER MÁS</a>
                   </Link>
                 </div>
@@ -296,7 +296,7 @@ export default function Home() {
         <div className={styles.video_text}>
           <div className={styles.box_left}>
             <div className={styles.ov_btn_slide_close}>
-              <Link href="/">
+              <Link href="#contacto">
                 <a>QUIERO HABLAR CON UN ASESOR</a>
               </Link>
             </div>
