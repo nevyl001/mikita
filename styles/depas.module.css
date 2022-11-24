@@ -442,3 +442,13 @@
 .arrow:hover {
   transform: translateY(+50px) scale(1.5);
 }
+.arrow1 {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+  transition: 1s;
+}
+.arrow1:hover {
+  transform: translateY(+25px) scale(1.5);
+}
