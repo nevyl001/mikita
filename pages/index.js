@@ -97,7 +97,7 @@ export default function Home() {
                       {item.text3}
                     </Subtitle>
                     <div className={styles.ov_btn_slide_close}>
-                      <Link href="#porque">
+                      <Link href="#contacto">
                         <a>QUIERO SABER MÁS</a>
                       </Link>
                     </div>
@@ -268,7 +268,7 @@ export default function Home() {
               </p>
               <div className="button-box">
                 <div className={styles.ov_btn_slide_close}>
-                  <Link href="/casas">
+                  <Link href="/depas">
                     <a>SABER MÁS</a>
                   </Link>
                 </div>
