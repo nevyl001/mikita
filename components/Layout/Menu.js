@@ -75,7 +75,12 @@ function Menu() {
             </Link>
           </div>
           <div className="socials">
-            <a href="https://wa.link/3nsw09" target="_blank" title="whatsapp">
+            <a
+              href="https://wa.link/3nsw09"
+              rel="noreferrer"
+              target="_blank"
+              title="whatsapp"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
@@ -88,6 +93,7 @@ function Menu() {
               </svg>
             </a>
             <a
+              rel="noreferrer"
               href="https://www.facebook.com/MikitaTown"
               target="_blank"
               title="facebook"
@@ -105,6 +111,7 @@ function Menu() {
             </a>
 
             <a
+              rel="noreferrer"
               href="https://www.instagram.com/mikitatown/"
               target="_blank"
               title="instagram"
@@ -122,6 +129,7 @@ function Menu() {
             </a>
 
             <a
+              rel="noreferrer"
               href="https://www.tiktok.com/@mikitatown"
               target="_blank"
               title="tik-tok"
@@ -139,6 +147,7 @@ function Menu() {
             </a>
 
             <a
+              rel="noreferrer"
               href="https://www.youtube.com/channel/UCHTf6PspT_iq8ZwDhApdXDQ/featured"
               target="_blank"
               title="youtube"
