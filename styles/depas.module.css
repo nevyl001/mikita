@@ -160,6 +160,7 @@
   padding-bottom: 5px;
 }
 .section_5 .box_right .text {
+  text-align: center;
   padding: 20px 5px;
   background-color: #212122;
 }
@@ -179,6 +180,9 @@
 .section_5 .box_right .whats_icon {
   padding: 15px 0;
   text-align: center;
+}
+.section_5 .box_right .whats_icon svg {
+  margin-top: 10px;
 }
 
 .section_6 {
@@ -360,6 +364,7 @@
   padding-bottom: 5px;
 }
 .section_DB .box_right .text {
+  text-align: center;
   padding: 20px 5px;
   background-color: #212122;
 }
@@ -379,4 +384,50 @@
 .section_DB .box_right .whats_icon {
   padding: 15px 0;
   text-align: center;
+}
+.section_DB .box_right .whats_icon svg {
+  margin-top: 10px;
+}
+
+.ov_btn_slide_close {
+  color: white;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+  padding: 15px 30px;
+  border: 2px solid #ffcf00;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  font-size: 19px;
+  letter-spacing: 2px;
+  border: 1px solid #ffcf00;
+}
+.ov_btn_slide_close:before,
+.ov_btn_slide_close:after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: -50%;
+  background-color: #ffcf00; /* color de fondo hover */
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.ov_btn_slide_close:after {
+  left: 100%;
+}
+.ov_btn_slide_close:hover {
+  color: black; /* color de fuente hover */
+}
+.ov_btn_slide_close:hover:before {
+  left: 0;
+}
+.ov_btn_slide_close:hover:after {
+  left: 50%;
 }
