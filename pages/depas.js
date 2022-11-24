@@ -118,8 +118,8 @@ export default function depas() {
             <Subtitle size="whats_1" color="white">
               AGENDA TU CITA
             </Subtitle>
-            <div className={styles.btn}>
-              <Link href="/">
+            <div className={styles.ov_btn_slide_close}>
+              <Link href="#contacto">
                 <a>AHORA MISMO</a>
               </Link>
             </div>
@@ -192,8 +192,8 @@ export default function depas() {
             <Title size="small" color="white" align="center">
               AGENDA TU CITA
             </Title>
-            <div className={styles.btn}>
-              <Link href="/">
+            <div className={styles.ov_btn_slide_close}>
+              <Link href="#contacto">
                 <a>AHORA MISMO</a>
               </Link>
             </div>
@@ -203,8 +203,8 @@ export default function depas() {
               </Title>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="60"
-                height="60"
+                width="50"
+                height="50"
                 fill="#ffcf00"
                 className="bi bi-whatsapp"
                 viewBox="0 0 16 16"
@@ -309,8 +309,8 @@ export default function depas() {
             <Subtitle size="whats_1" color="white">
               AGENDA TU CITA
             </Subtitle>
-            <div className={styles.btn}>
-              <Link href="/">
+            <div className={styles.ov_btn_slide_close}>
+              <Link href="#contacto">
                 <a>AHORA MISMO</a>
               </Link>
             </div>
@@ -394,8 +394,8 @@ export default function depas() {
             <Title size="small" color="white" align="center">
               AGENDA TU CITA
             </Title>
-            <div className={styles.btn}>
-              <Link href="/">
+            <div className={styles.ov_btn_slide_close}>
+              <Link href="#contacto">
                 <a>AHORA MISMO</a>
               </Link>
             </div>

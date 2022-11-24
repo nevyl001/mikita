@@ -440,7 +440,7 @@ export default function Home() {
           <div
             className="image gallery-effect"
             style={{
-              backgroundImage: `url(/imgs/ameninew.png)`,
+              backgroundImage: `url(/imgs/pici2.png)`,
             }}
           />
           <div className="image-content">
