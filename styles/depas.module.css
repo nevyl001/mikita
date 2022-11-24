@@ -431,3 +431,14 @@
 .ov_btn_slide_close:hover:after {
   left: 50%;
 }
+
+.arrow {
+  width: 100px;
+  height: 50px;
+  margin: 0 auto;
+  position: relative;
+  transition: 1s;
+}
+.arrow:hover {
+  transform: translateY(+50px) scale(1.5);
+}
