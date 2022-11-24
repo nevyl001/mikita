@@ -52,7 +52,7 @@ const Footer = () => {
             <Paragraph>También nos puedes contactar</Paragraph>
             <Paragraph>por WhatsApp.</Paragraph>
             <div className={styles.whats_icon}>
-              <a href="https://wa.link/3nsw09" target="_blank">
+              <a href="https://wa.link/3nsw09" rel="noreferrer" target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="80"

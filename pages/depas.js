@@ -127,7 +127,12 @@ export default function depas() {
               <Subtitle size="whats" color="white">
                 ENVÍANOS WHATSAPP
               </Subtitle>
-              <a href="https://wa.link/3nsw09" target="_blank" title="whatsapp">
+              <a
+                href="https://wa.link/3nsw09"
+                target="_blank"
+                rel="noreferrer"
+                title="whatsapp"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="80"
@@ -203,7 +208,12 @@ export default function depas() {
               <Title size="small" color="white" align="center">
                 ENVÍANOS WHATSAPP
               </Title>
-              <a href="https://wa.link/3nsw09" target="_blank" title="whatsapp">
+              <a
+                href="https://wa.link/3nsw09"
+                rel="noreferrer"
+                target="_blank"
+                title="whatsapp"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="50"
@@ -322,7 +332,12 @@ export default function depas() {
               <Subtitle size="whats" color="white">
                 ENVÍANOS WHATSAPP
               </Subtitle>
-              <a href="https://wa.link/3nsw09" target="_blank" title="whatsapp">
+              <a
+                href="https://wa.link/3nsw09"
+                rel="noreferrer"
+                target="_blank"
+                title="whatsapp"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="80"
@@ -409,7 +424,12 @@ export default function depas() {
               <Title size="small" color="white" align="center">
                 ENVÍANOS WHATSAPP
               </Title>
-              <a href="https://wa.link/3nsw09" target="_blank" title="whatsapp">
+              <a
+                href="https://wa.link/3nsw09"
+                target="_blank"
+                rel="noreferrer"
+                title="whatsapp"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="50"

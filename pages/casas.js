@@ -150,6 +150,7 @@ export default function casas() {
                   ENVÍANOS WHATSAPP
                 </Subtitle>
                 <a
+                  rel="noreferrer"
                   href="https://wa.link/3nsw09"
                   target="_blank"
                   title="whatsapp"
@@ -255,6 +256,7 @@ export default function casas() {
                   ENVÍANOS WHATSAPP
                 </Title>
                 <a
+                  rel="noreferrer"
                   href="https://wa.link/3nsw09"
                   target="_blank"
                   title="whatsapp"
@@ -364,6 +366,7 @@ export default function casas() {
                   ENVÍANOS WHATSAPP
                 </Subtitle>
                 <a
+                  rel="noreferrer"
                   href="https://wa.link/3nsw09"
                   target="_blank"
                   title="whatsapp"
@@ -468,6 +471,7 @@ export default function casas() {
                   ENVÍANOS WHATSAPP
                 </Title>
                 <a
+                  rel="noreferrer"
                   href="https://wa.link/3nsw09"
                   target="_blank"
                   title="whatsapp"

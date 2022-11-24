@@ -31,7 +31,7 @@ function Layout(props) {
       <Menu />
       <main className={classes.main}>{props.children}</main>
       <div className="whatsapp-box">
-        <a href="https://wa.link/3nsw09" target="_blank">
+        <a href="https://wa.link/3nsw09" target="_blank" rel="noreferrer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="80px"
