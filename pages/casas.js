@@ -32,25 +32,27 @@ export default function casas() {
             <Subtitle size="medium" color="yellow">
               SABER MÁS
             </Subtitle>
-            <div className={styles.arrow}>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="50"
-                height="50"
-                fill="#ffcf00"
-                className="bi bi-arrow-down"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  ffillRule="evenodd"
-                  d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
-                />
-              </svg>
-            </div>
+            <a href="#miki">
+              <div className={styles.arrow}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="50"
+                  height="50"
+                  fill="#ffcf00"
+                  className="bi bi-arrow-down"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    ffillRule="evenodd"
+                    d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+                  />
+                </svg>
+              </div>
+            </a>
           </div>
         </div>
       </div>
-      <div className={styles.casas_box}>
+      <div id="miki" className={styles.casas_box}>
         <div className={styles.section_1}>
           <div className={styles.text}>
             <Title size="medium_1" color="white">
@@ -626,7 +628,7 @@ export default function casas() {
             VISÍTANOS
           </Paragraph>
 
-          <div className={styles.arrow}>
+          <div className={styles.arrow1}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="50"

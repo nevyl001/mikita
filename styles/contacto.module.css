@@ -4,7 +4,7 @@
 
 .section_10 {
   text-align: center;
-  margin: 200px 0;
+  margin-top: 150px;
 }
 
 .section_10 .text h2 {
@@ -87,4 +87,14 @@
 .section_DB .box_right .whats_icon {
   padding: 15px 0;
   text-align: center;
+}
+.arrow1 {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+  transition: 1s;
+}
+.arrow1:hover {
+  transform: translateY(+25px) scale(1.5);
 }
