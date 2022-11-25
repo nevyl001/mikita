@@ -238,3 +238,77 @@ main {
   bottom: 0;
   transition-duration: 0.4s;
 }
+
+.menu-mobile {
+  display: none;
+  background-color: black;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.menu-mobile .flex {
+  display: flex;
+  align-items: center;
+}
+.menu-mobile .left {
+  width: 50%;
+  padding: 10px;
+}
+.menu-mobile .logo {
+  width: 100px;
+}
+.menu-mobile .right {
+  text-align: right;
+  width: 50%;
+  padding: 10px;
+}
+.menu-mobile .right .burger {
+  display: inline-block;
+  width: 35px;
+  cursor: pointer;
+}
+.menu-mobile .burger .line {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  margin: 7px 0;
+}
+.menu-mobile .menu-items {
+  color: white;
+  padding-bottom: 20px;
+}
+.menu-mobile .menu-items a {
+  display: block;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .menu-desktop {
+    display: none;
+  }
+  .menu-mobile {
+    display: block;
+  }
+  .whatsapp-box {
+    position: fixed;
+    left: 30px;
+    bottom: 30px;
+    z-index: 999;
+    cursor: pointer;
+  }
+  .whatsapp-box svg {
+    width: 40px;
+    height: 40px;
+  }
+  .extra-logo-fixed {
+    display: none;
+  }
+  .elige-item {
+    background-color: #212121;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+  }
+}
