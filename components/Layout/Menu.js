@@ -5,6 +5,7 @@ import { Fragment, useEffect, useState } from "react";
 function Menu() {
   const [show, setShow] = useState(false);
   const [hide, setHide] = useState(false);
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
 
   const controlMenu = () => {
     if (window.scrollY < 100) {
@@ -41,9 +42,17 @@ function Menu() {
     };
   }, []);
 
+  const showMobileMenuHandler = () => {
+    setShowMobileMenu(!showMobileMenu);
+  };
+
   return (
     <Fragment>
-      <nav className={` menu  ${show && "menu_black"} ${hide && "menu_hide"}`}>
+      <nav
+        className={`menu-desktop menu  ${show && "menu_black"} ${
+          hide && "menu_hide"
+        }`}
+      >
         <div className="menu_left">
           <div className="imagen">
             <Link href="/">
@@ -165,6 +174,48 @@ function Menu() {
             </a>
           </div>
         </div>
+      </nav>
+      <nav className="menu-mobile">
+        <div className="flex">
+          <div className="left">
+            <div className="logo">
+              <Link href="/">
+                <Image
+                  src="/imgs/logoal.png"
+                  alt="Logo"
+                  width={845}
+                  height={215}
+                />
+              </Link>
+            </div>
+          </div>
+          <div className="right">
+            <div className="burger" onClick={showMobileMenuHandler}>
+              <div className="line" />
+              <div className="line" />
+              <div className="line" />
+            </div>
+          </div>
+        </div>
+        {showMobileMenu && (
+          <div className="menu-items">
+            <Link href="/">
+              <a>Home</a>
+            </Link>
+            <Link href="/casas">
+              <a>CASAS</a>
+            </Link>
+            <Link href="/depas">
+              <a>DEPAS</a>
+            </Link>
+            <Link href="/contacto">
+              <a>CONTACTO</a>
+            </Link>
+            <Link href="/#porque">
+              <a>PORQUÉ MIKITA</a>
+            </Link>
+          </div>
+        )}
       </nav>
     </Fragment>
   );

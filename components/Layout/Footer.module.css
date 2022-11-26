@@ -117,3 +117,24 @@
 .ov_btn_slide_close:hover:after {
   left: 50%;
 }
+
+@media only screen and (max-width: 1000px) {
+  .form_footer {
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    gap: 20px;
+  }
+  .form_footer .box_left {
+    width: 100%;
+  }
+  .form_footer .box_right {
+    background-color: #212121;
+    text-align: center;
+    padding: 20px 0;
+    height: 300px;
+    width: 100%;
+  }
+}

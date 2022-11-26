@@ -506,3 +506,121 @@
 .desarrollo .right {
   width: 50%;
 }
+
+@media only screen and (max-width: 1000px) {
+  .carousel .overlay {
+    padding-top: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+  }
+  .text_header {
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  .text_header .text_tittle {
+    width: 100%;
+    margin: auto;
+  }
+  .porque {
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 100px;
+    display: block;
+  }
+  .porque_left {
+    width: 100%;
+  }
+  .porque_right {
+    width: 100%;
+  }
+  .porque_down {
+    text-align: center;
+    padding: 30px 0;
+    justify-content: center;
+    gap: 25px;
+    display: block;
+  }
+  .elige {
+    margin: 0 auto;
+    margin-bottom: 100px;
+    gap: 25px;
+    width: 100%;
+    display: block;
+  }
+  .elige_left {
+    width: 100%;
+  }
+  .elige_right {
+    width: 100%;
+  }
+  .video .imagen {
+    position: relative;
+    height: auto;
+    text-align: center;
+  }
+  .image_container,
+  .image_container1,
+  .image_container2,
+  .image_container3,
+  .image_container4,
+  .image_container5 {
+    gap: 10px;
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    padding: 20px;
+  }
+  .image_container .imagen_item1,
+  .image_container .imagen_item2 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 460px;
+    background-position: center center;
+    background-size: cover;
+  }
+  .image_container1 .box_left {
+    width: 100%;
+  }
+  .image_container1 .box_right {
+    width: 100%;
+  }
+  .image_container2 .imagen_item1,
+  .image_container2 .imagen_item2 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+  }
+  .image_container5 .box_left {
+    width: 100%;
+  }
+  .image_container5 .box_right {
+    width: 100%;
+  }
+  .desarrollo {
+    margin-top: 50px;
+    gap: 20px;
+    margin-bottom: 100px;
+    display: block;
+  }
+  .desarrollo .left {
+    width: 100%;
+    text-align: center;
+  }
+
+  .desarrollo .right {
+    width: 100%;
+  }
+}
