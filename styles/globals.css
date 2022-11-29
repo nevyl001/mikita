@@ -251,18 +251,18 @@ main {
 .menu-mobile .flex {
   display: flex;
   align-items: center;
+  padding: 15px;
 }
 .menu-mobile .left {
   width: 50%;
   padding: 10px;
 }
 .menu-mobile .logo {
-  width: 100px;
+  width: 300px;
 }
 .menu-mobile .right {
   text-align: right;
   width: 50%;
-  padding: 10px;
 }
 .menu-mobile .right .burger {
   display: inline-block;

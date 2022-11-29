@@ -183,8 +183,8 @@ function Menu() {
                 <Image
                   src="/imgs/logoal.png"
                   alt="Logo"
-                  width={845}
-                  height={215}
+                  width={605}
+                  height={155}
                 />
               </Link>
             </div>

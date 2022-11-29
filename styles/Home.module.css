@@ -519,7 +519,7 @@
     height: 100%;
   }
   .text_header {
-    padding: 20px;
+    padding-top: 100px;
     text-align: center;
     color: white;
   }
@@ -565,6 +565,28 @@
     position: relative;
     height: auto;
     text-align: center;
+  }
+  .video_text {
+    text-align: center;
+    padding: 15px;
+  }
+  .video_text h1 {
+    font-size: 20px;
+  }
+  .video_text a {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .video_text .ov_btn_slide_close {
+    color: white;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    padding: 20px 15px;
+    border: 2px solid #ffcf00;
   }
   .image_container,
   .image_container1,
