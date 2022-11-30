@@ -443,6 +443,7 @@
   transform: translateY(+50px) scale(1.5);
 }
 .arrow1 {
+  cursor: pointer;
   width: 100px;
   height: 100px;
   margin: 0 auto;
