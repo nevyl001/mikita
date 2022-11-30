@@ -509,7 +509,7 @@
 
 @media only screen and (max-width: 1000px) {
   .carousel .overlay {
-    padding-top: 100px;
+    padding-top: 120px;
     position: absolute;
     top: 0;
     left: 0;
@@ -518,8 +518,14 @@
     width: 100%;
     height: 100%;
   }
+  .item {
+    height: 85vh;
+  }
+  .text_header .ov_btn_slide_close {
+    margin-top: 50px;
+  }
   .text_header {
-    padding-top: 100px;
+    padding-top: 70px;
     text-align: center;
     color: white;
   }
@@ -528,11 +534,12 @@
     margin: auto;
   }
   .porque {
+    text-align: center;
     align-items: center;
     gap: 20px;
     width: 90%;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 50px;
     display: block;
   }
   .porque_left {
@@ -547,6 +554,9 @@
     justify-content: center;
     gap: 25px;
     display: block;
+  }
+  .elige_title {
+    margin-top: 50px;
   }
   .elige {
     margin: 0 auto;
@@ -577,10 +587,13 @@
     text-align: center;
     font-size: 14px;
   }
-
+  .town {
+    margin-top: 50px;
+  }
   .video_text .ov_btn_slide_close {
     color: white;
     cursor: pointer;
+    text-align: center;
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -632,9 +645,10 @@
     width: 100%;
   }
   .desarrollo {
-    margin-top: 50px;
+    margin-top: 25px;
     gap: 20px;
-    margin-bottom: 100px;
+    text-align: center;
+    margin-bottom: 50px;
     display: block;
   }
   .desarrollo .left {

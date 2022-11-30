@@ -288,6 +288,7 @@ main {
   .menu-desktop {
     display: none;
   }
+
   .menu-mobile {
     display: block;
   }
@@ -310,5 +311,10 @@ main {
     width: 100%;
     height: 800px;
     overflow: hidden;
+  }
+  .subtitulo-1 {
+    font-size: 25px;
+    padding: 15px;
+    letter-spacing: 10px;
   }
 }
