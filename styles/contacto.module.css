@@ -98,3 +98,9 @@
 .arrow1:hover {
   transform: translateY(+25px) scale(1.5);
 }
+
+@media only screen and (max-width: 1000px) {
+  .section_10 .imagen {
+    width: 60%;
+  }
+}
