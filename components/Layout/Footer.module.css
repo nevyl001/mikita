@@ -122,13 +122,14 @@
   .form_footer {
     text-align: center;
     align-items: center;
-    margin: 0 auto;
-    width: 100%;
+    margin: auto;
+    width: 90%;
     display: block;
     gap: 20px;
   }
   .form_footer .box_left {
     width: 100%;
+    padding-bottom: 20px;
   }
   .form_footer .box_right {
     background-color: #212121;
@@ -136,5 +137,12 @@
     padding: 20px 0;
     height: 300px;
     width: 100%;
+  }
+  .footer {
+    padding-top: 25px;
+    margin-top: 50px;
+  }
+  .foo_down {
+    margin-top: 100px;
   }
 }
