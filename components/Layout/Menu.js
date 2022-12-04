@@ -200,19 +200,19 @@ function Menu() {
         {showMobileMenu && (
           <div className="menu-items">
             <Link href="/">
-              <a>Home</a>
+              <a onClick={showMobileMenuHandler}>Home</a>
             </Link>
             <Link href="/casas">
-              <a>CASAS</a>
+              <a onClick={showMobileMenuHandler}>CASAS</a>
             </Link>
             <Link href="/depas">
-              <a>DEPAS</a>
+              <a onClick={showMobileMenuHandler}>DEPAS</a>
             </Link>
             <Link href="/contacto">
-              <a>CONTACTO</a>
+              <a onClick={showMobileMenuHandler}>CONTACTO</a>
             </Link>
             <Link href="/#porque">
-              <a>PORQUÉ MIKITA</a>
+              <a onClick={showMobileMenuHandler}>PORQUÉ MIKITA</a>
             </Link>
           </div>
         )}
