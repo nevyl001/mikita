@@ -627,6 +627,9 @@
   .section_7mobi p span {
     color: #ffcf00;
   }
+  .section_DB {
+    padding: 0 10px;
+  }
   .section_DB .box_images {
     display: block;
     align-items: center;
