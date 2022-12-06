@@ -4,6 +4,7 @@
 .casas_box {
   margin: 0 25px;
 }
+
 .images .imagen_1 {
   position: relative;
   width: 100%;
@@ -13,7 +14,7 @@
 }
 .header .overlay {
   text-align: center;
-  padding-top: 22vh;
+  padding-top: 30vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -365,7 +366,7 @@
   transition: 1s;
 }
 .arrow:hover {
-  transform: translateY(+50px) scale(1.5);
+  transform: translateY(+20px) scale(1.5);
 }
 .arrow1 {
   cursor: pointer;
@@ -376,10 +377,13 @@
   transition: 1s;
 }
 .arrow1:hover {
-  transform: translateY(+25px) scale(1.5);
+  transform: translateY(+20px) scale(1.5);
 }
 
 @media only screen and (max-width: 1000px) {
+  .casas_box {
+    margin: 0;
+  }
   .images .imagen_1 {
     position: relative;
     width: 100%;
@@ -395,21 +399,34 @@
     z-index: 900;
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     padding: 200px 0 40px 0;
   }
+  .section_1 {
+    padding: 0;
+  }
+  .section_1 h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+  .section_2 .text p {
+    text-align: justify;
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
   .section_2 {
-    padding: 0 20px;
-    display: block;
+    display: flex;
   }
   .section_2 .box_left {
-    width: 100%;
+    width: 70%;
   }
   .section_2 .box_right {
-    width: 100%;
+    width: 30%;
   }
+
   .section_3 {
-    padding: 20px 20px;
+    padding: 20px 0px;
     gap: 10px;
     display: block;
   }
