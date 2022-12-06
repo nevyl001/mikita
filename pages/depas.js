@@ -269,6 +269,7 @@ export default function depas() {
           </div>
         </div>
       </div>
+
       <div className={styles.section_6}>
         <div className={styles.text_left}>
           <Title size="medium" color="white">
@@ -330,6 +331,71 @@ export default function depas() {
           </div>
         </div>
         <div className={styles.box_right}>
+          <div className={styles.imagen}>
+            <Image
+              src="/imgs/depas/dd2.png"
+              alt="im-depa"
+              width={438}
+              height={714}
+            />
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.section_7mobi}>
+        <div className={styles.box_left}>
+          <div className={styles.images}>
+            <div
+              className={styles.imagen1}
+              style={{
+                backgroundImage: `url(/imgs/depas/dep2_1.jpg)`,
+              }}
+            >
+              {/* <Image
+                src="/imgs/depas/dep2_1.jpg"
+                alt="im-depas"
+                width={4000}
+                height={2250}
+              /> */}
+            </div>
+            <div
+              className={styles.imagen2}
+              style={{
+                backgroundImage: `url(/imgs/depas/dep2_2.jpg)`,
+              }}
+            >
+              {/* <Image
+                src="/imgs/depas/dep2_2.jpg"
+                alt="im-depas"
+                width={4000}
+                height={2250}
+              /> */}
+            </div>
+            <div
+              className={styles.imagen3}
+              style={{
+                backgroundImage: `url(/imgs/depas/dep2_3.jpg)`,
+              }}
+            >
+              {/* <Image
+                src="/imgs/depas/dep2_3.jpg"
+                alt="im-depas"
+                width={3024}
+                height={2250}
+              /> */}
+            </div>
+          </div>
+        </div>
+        <div className={styles.box_right}>
+          <div className={styles.text}>
+            <Paragraph>
+              El modelo <span>Doble</span> es disruptivo por su atractivo diseño
+              de <span>doble altura</span>que se aprecia desde abrir la puerta.
+              Con su propuesta Doble Altura se consigue aprovechar el espacio de
+              manera eficiente, priorizando la comodidad y obteniendo como
+              resultado un entorno interior de alta gama.
+            </Paragraph>
+          </div>
           <div className={styles.imagen}>
             <Image
               src="/imgs/depas/dd2.png"
