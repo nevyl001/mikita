@@ -664,4 +664,10 @@
     width: 100%;
     text-align: center;
   }
+  .section_10 h2 {
+    letter-spacing: 5px;
+  }
+  .section_10 .imagen {
+    width: 80%;
+  }
 }
