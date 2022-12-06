@@ -440,7 +440,7 @@
     text-align: justify;
     padding: 0px;
     margin: 0px;
-    font-size: 18px;
+    font-size: 19px;
   }
   .section_2mobi p span {
     color: #ffcf00;
@@ -516,6 +516,7 @@
   }
   .section_7mobi .box_right {
     display: flex;
+    gap: 5px;
     padding: 5px 10px;
   }
   .section_7mobi .box_right .text {
@@ -523,6 +524,12 @@
   }
   .section_7mobi .box_right .imagen {
     width: 40%;
+  }
+  .section_7mobi .box_right .text p {
+    text-align: justify;
+    padding: 0px;
+    margin: 0px;
+    font-size: 19px;
   }
   .section_7mobi p span {
     color: #ffcf00;
