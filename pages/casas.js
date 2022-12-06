@@ -391,6 +391,55 @@ export default function casas() {
             </div>
           </div>
         </div>
+        <div className={styles.section_7mobi}>
+          <div className={styles.box_left}>
+            <div className={styles.images}>
+              <div className={styles.imagen1}>
+                <Image
+                  src="/imgs/casas/coci1.jpg"
+                  alt="im-casa"
+                  width={4000}
+                  height={2250}
+                />
+              </div>
+              <div className={styles.imagen2}>
+                <Image
+                  src="/imgs/casas/coci2.jpeg"
+                  alt="im-casa"
+                  width={4000}
+                  height={2250}
+                />
+              </div>
+              <div className={styles.imagen3}>
+                <Image
+                  src="/imgs/casas/coci3.jpeg"
+                  alt="im-casa"
+                  width={4000}
+                  height={2250}
+                />
+              </div>
+            </div>
+          </div>
+          <div className={styles.box_right}>
+            <div className={styles.text}>
+              <Paragraph size="casa">
+                El <span>modelo Sugoi</span> con su <span>cocina grande</span>{" "}
+                hace esta área el centro de atención, contribuyendo a la reunión
+                y convivencia de las familias modernas, su barra amplia al
+                centro tipo isla, proporciona mayor libertad y comodidad. Un
+                espacio ideal para las reuniones con amigos y familia.
+              </Paragraph>
+            </div>
+            <div className={styles.imagen}>
+              <Image
+                src="/imgs/casas/me128.png"
+                alt="im-casa"
+                width={600}
+                height={1000}
+              />
+            </div>
+          </div>
+        </div>
         <div className={styles.section_3}>
           <div className={styles.box_left}>
             <div
