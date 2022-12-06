@@ -11,14 +11,14 @@
 }
 .header .overlay {
   text-align: center;
-  padding-top: 22vh;
+  padding-top: 30vh;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 900;
   background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 .header .overlay .text h1 {
   margin-bottom: 70px;
@@ -30,6 +30,7 @@
   margin-top: 35px;
   text-align: center;
 }
+
 .section_2 {
   gap: 10px;
   margin: 20px 35px;
@@ -66,6 +67,9 @@
 }
 .section_2 p span {
   color: #ffcf00;
+}
+.section_2mobi {
+  display: none;
 }
 
 .section_3 {
@@ -440,7 +444,7 @@
   transition: 1s;
 }
 .arrow:hover {
-  transform: translateY(+50px) scale(1.5);
+  transform: translateY(+25px) scale(1.5);
 }
 .arrow1 {
   cursor: pointer;
@@ -455,38 +459,100 @@
 }
 
 @media only screen and (max-width: 1000px) {
+  .images .imagen_1 {
+    height: 80vh;
+  }
+  .header .overlay {
+    height: 80vh;
+    padding: 220px 0 40px 0;
+  }
+  .section_1 .text h1 {
+    font-size: 40px;
+  }
   .section_2 {
-    gap: 10px;
-    margin: 20px 35px;
+    display: none;
+  }
+  .section_2mobi {
     display: block;
   }
-  .section_2 .box_left {
-    width: 100%;
+  .section_2mobi .images {
+    display: flex;
+    gap: 5px;
   }
-  .section_2 .box_right {
-    width: 100%;
+  .section_2mobi .images .imagen1 {
+    width: 60%;
+    height: 250px;
+    background-position: bottom center;
+    background-size: cover;
+  }
+  .section_2mobi .images .imagen2 {
+    width: 40%;
+    height: 250px;
+    background-position: right center;
+    background-size: cover;
+  }
+  .section_2mobi p span {
+    color: #ffcf00;
+  }
+  .section_2mobi .box_right {
+    padding: 10px 5px;
+    gap: 5px;
+    display: flex;
+  }
+  .section_2mobi .box_right .text {
+    width: 60%;
+  }
+  .section_2mobi .box_right .text p {
+    text-align: justify;
+    font-size: 20px;
+    margin: 0;
+  }
+  .section_2mobi .box_right .imagen {
+    width: 40%;
   }
   .section_3 {
-    gap: 10px;
-    margin: 0 35px;
+    margin: 0;
     display: block;
   }
+  .section_3 .text h2 {
+    padding: 0 15px;
+    font-size: 18px;
+    letter-spacing: 8px;
+  }
   .section_3 .box_left {
-    position: relative;
+    margin: 0;
     width: 100%;
   }
   .section_3 .box_right {
+    padding: 10px 0;
+    margin: 0;
     width: 100%;
+  }
+  .section_3 .box_right .whats_icon {
+    padding: 10px 0;
+  }
+  .section_4 h1 {
+    padding-top: 20px;
+    font-size: 35px;
   }
   .section_5 {
     display: block;
-    padding: 0 35px;
-    margin-bottom: 100px;
+    padding: 0 10px;
+    align-self: start;
+  }
+  .section_5 .box_images {
+    align-items: flex-start;
   }
   .section_5 .box_left {
     width: 100%;
   }
   .section_5 .box_right {
+    width: 100%;
+  }
+  .section_5 .box_images .box_text_1 {
+    width: 100%;
+  }
+  .section_5 .box_images .box_text_2 {
     width: 100%;
   }
   .section_DB {

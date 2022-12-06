@@ -59,6 +59,7 @@ export default function depas() {
           </Title>
         </div>
       </div>
+
       <div className={styles.section_2}>
         <div className={styles.box_left}>
           <div className={styles.images}>
@@ -85,6 +86,43 @@ export default function depas() {
           </div>
         </div>
         <div className={styles.box_right}>
+          <div className={styles.imagen}>
+            <Image
+              src="/imgs/depas/da1.png"
+              alt="im-depas"
+              width={444}
+              height={726}
+            />
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.section_2mobi}>
+        <div className={styles.box_left}>
+          <div className={styles.images}>
+            <div
+              className={styles.imagen1}
+              style={{
+                backgroundImage: `url(/imgs/depas/dep1.jpg)`,
+              }}
+            ></div>
+            <div
+              className={styles.imagen2}
+              style={{
+                backgroundImage: `url(/imgs/depas/dep2.jpg)`,
+              }}
+            ></div>
+          </div>
+        </div>
+        <div className={styles.box_right}>
+          <div className={styles.text}>
+            <Paragraph size="casa">
+              El modelo <span>Flat</span> ofrece un <span>espacio amplio</span>{" "}
+              de alto confort, destacando por su grande espacio al interior y en
+              el área del jardín. Estás características sin duda ofrecen una
+              sensación de libertad y de sentirse como vivir en una casa.
+            </Paragraph>
+          </div>
           <div className={styles.imagen}>
             <Image
               src="/imgs/depas/da1.png"
