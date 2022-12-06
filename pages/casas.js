@@ -117,6 +117,63 @@ export default function casas() {
             </div>
           </div>
         </div>
+        <div className={styles.section_2mobi}>
+          <div className={styles.box_left}>
+            <div className={styles.images}>
+              <div className={styles.imagen}>
+                <Image
+                  src="/imgs/casas/c1.jpeg"
+                  alt="im-casa"
+                  width={3024}
+                  height={3024}
+                />
+              </div>
+              <div className={styles.imagen}>
+                <Image
+                  src="/imgs/casas/c2.jpeg"
+                  alt="im-casa"
+                  width={3024}
+                  height={3024}
+                />
+              </div>
+              <div className={styles.imagen}>
+                <Image
+                  src="/imgs/casas/c3.jpeg"
+                  alt="im-casa"
+                  width={3024}
+                  height={3024}
+                />
+              </div>
+              <div className={styles.imagen}>
+                <Image
+                  src="/imgs/casas/c4.jpeg"
+                  alt="im-casa"
+                  width={3024}
+                  height={3024}
+                />
+              </div>
+            </div>
+          </div>
+          <div className={styles.box_right}>
+            <div className={styles.text}>
+              <Paragraph size="casa">
+                El <span>modelo Tsuika</span> cuenta se adapta al estilo de vida
+                actual ya que, su valor agregado ofrece un{" "}
+                <span>área adicional</span> en Planta Baja que puedes usar como,
+                cuarto de estudio o home office. El Área Plus te brinda la
+                libertad de darle el uso que más te convenga.
+              </Paragraph>
+            </div>
+            <div className={styles.imagen}>
+              <Image
+                src="/imgs/casas/plu128.png"
+                alt="im-casa"
+                width={590}
+                height={988}
+              />
+            </div>
+          </div>
+        </div>
 
         <div className={styles.section_3}>
           <div className={styles.box_left}>
