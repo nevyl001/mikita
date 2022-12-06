@@ -519,19 +519,23 @@
     height: 100%;
   }
   .item {
-    height: 85vh;
+    height: 80vh;
   }
   .text_header .ov_btn_slide_close {
-    margin-top: 30px;
+    margin-top: 20px;
   }
   .text_header {
-    padding-top: 100px;
+    padding-top: 70px;
     text-align: center;
     color: white;
   }
   .text_header .text_tittle {
     width: 100%;
     margin: auto;
+  }
+  .text_header h2 {
+    font-size: 15px;
+    letter-spacing: 5px;
   }
   .porque {
     text-align: center;
