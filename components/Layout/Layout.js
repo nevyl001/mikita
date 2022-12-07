@@ -11,7 +11,7 @@ function Layout(props) {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
 
-        <title>Mikita</title>
+        <title>MIKITA TOWN</title>
         <meta
           name="description"
           content="MIKITA TOWN - SE UBICA EN UNA ZONA PRVILEGIADA..."
