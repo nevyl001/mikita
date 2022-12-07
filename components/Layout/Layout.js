@@ -18,11 +18,11 @@ function Layout(props) {
         />
         <link rel="icon" href="/imgs/logoal.png" />
         <meta name="description" content="MIKITA TOWN" />
-        <meta property="og:image" content="/imgs/logoal.png"></meta>
-        <meta
+        <meta property="og:image" content="/imgs/logo01.png"></meta>
+        {/* <meta
           property="og:title"
           content="MIKITA TOWN - PERMITE TRASLADOS EN CORTO TIEMPO, GRACIAS AL POCO TRAFICO VEHICULAR."
-        ></meta>
+        ></meta> */}
         <meta
           property="og:description"
           content="MIKITA TOWN SE UBICA EN UNA ZONA PRVILEGIADA QUE PERMITE TRASLADOS EN CORTO TIEMPO, GRACIAS AL POCO TRAFICO VEHICULAR."
