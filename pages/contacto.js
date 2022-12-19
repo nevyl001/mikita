@@ -19,10 +19,6 @@ export default function contacto() {
           <Subtitle size="medium" color="white">
             EMPIEZA UN NUEVO ESTILO DE VIDA
           </Subtitle>
-          <Title size="medium" color="white">
-            ESTAMOS EN ETAPA DE PREVENTA
-          </Title>
-
           <div className={styles.imagen}>
             <Image
               src="/imgs/logoal.png"
