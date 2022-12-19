@@ -98,11 +98,10 @@ export default function casas() {
             </div>
             <div className={styles.text}>
               <Paragraph size="casa">
-                El <span>modelo Tsuika</span> cuenta se adapta al estilo de vida
-                actual ya que, su valor agregado ofrece un{" "}
-                <span>área adicional</span> en Planta Baja que puedes usar como,
-                cuarto de estudio o home office. El Área Plus te brinda la
-                libertad de darle el uso que más te convenga.
+                El <span>modelo Tsuika</span> se adapta al estilo de vida actual
+                ya que, su valor agregado ofrece un <span>área adicional</span>{" "}
+                en Planta Baja que puedes usar como, cuarto de estudio o home
+                office. Puedes usar el área adicional como más te convenga.
               </Paragraph>
             </div>
           </div>
@@ -713,9 +712,7 @@ export default function casas() {
           <Title size="medium" color="white">
             APARTA AHORA TU NUEVA CASA
           </Title>
-          <Subtitle size="medium" color="white">
-            ESTAMOS EN ETAPA DE PREVENTA
-          </Subtitle>
+
           <div className={styles.imagen}>
             <Image
               src="/imgs/logoal.png"

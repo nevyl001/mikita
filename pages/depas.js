@@ -217,7 +217,7 @@ export default function depas() {
                 <li>COMEDOR</li>
                 <li>COCINA (EQUIPADA)</li>
                 <li>2 RECÁMARAS</li>
-                <li>PRINCIPAL CON BAÑO COMPLETON</li>
+                <li>PRINCIPAL CON BAÑO COMPLETO</li>
                 <li>ÁREA DE LAVANDERÍA</li>
                 <li>TERRAZA O JARDÍN</li>
                 <li>2 BAÑOS</li>
@@ -322,11 +322,11 @@ export default function depas() {
           </div>
           <div className={styles.text}>
             <Paragraph>
-              El modelo <span>Doble</span> es disruptivo por su atractivo diseño
-              de <span>doble altura</span>que se aprecia desde abrir la puerta.
-              Con su propuesta Doble Altura se consigue aprovechar el espacio de
-              manera eficiente, priorizando la comodidad y obteniendo como
-              resultado un entorno interior de alta gama.
+              El modelo <span>Double</span> es disruptivo por su atractivo
+              diseño de <span>double altura </span>que se aprecia desde abrir la
+              puerta. Con su propuesta Doble Altura se consigue aprovechar el
+              espacio de manera eficiente, priorizando la comodidad y obteniendo
+              como resultado un entorno interior de alta gama.
             </Paragraph>
           </div>
         </div>
@@ -389,11 +389,11 @@ export default function depas() {
         <div className={styles.box_right}>
           <div className={styles.text}>
             <Paragraph>
-              El modelo <span>Doble</span> es disruptivo por su atractivo diseño
-              de <span>doble altura</span>que se aprecia desde abrir la puerta.
-              Con su propuesta Doble Altura se consigue aprovechar el espacio de
-              manera eficiente, priorizando la comodidad y obteniendo como
-              resultado un entorno interior de alta gama.
+              El modelo <span>Double</span> es disruptivo por su atractivo
+              diseño de <span>double altura </span> que se aprecia desde abrir
+              la puerta. Con su propuesta Doble Altura se consigue aprovechar el
+              espacio de manera eficiente, priorizando la comodidad y obteniendo
+              como resultado un entorno interior de alta gama.
             </Paragraph>
           </div>
           <div className={styles.imagen}>
@@ -664,9 +664,6 @@ export default function depas() {
           <Title size="medium" color="white">
             APARTA AHORA TU NUEVA DEPA
           </Title>
-          <Subtitle size="medium" color="white">
-            ESTAMOS EN ETAPA DE PREVENTA
-          </Subtitle>
           <div className={styles.imagen}>
             <Image
               src="/imgs/logoal.png"
