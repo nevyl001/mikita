@@ -108,7 +108,7 @@ export default function casas() {
           <div className={styles.box_right}>
             <div className={styles.imagen}>
               <Image
-                src="/imgs/casas/plu128.png"
+                src="/imgs/casas/imgNueva.png"
                 alt="im-casa"
                 width={590}
                 height={988}
@@ -165,7 +165,7 @@ export default function casas() {
             </div>
             <div className={styles.imagen}>
               <Image
-                src="/imgs/casas/plu128.png"
+                src="/imgs/casas/imgNueva.png"
                 alt="im-casa"
                 width={590}
                 height={988}
@@ -294,7 +294,7 @@ export default function casas() {
           <div className={styles.box_right}>
             <div className={styles.imagen}>
               <Image
-                src="/imgs/casas/plu128.png"
+                src="/imgs/casas/imgNueva.png"
                 alt="im-casa"
                 width={590}
                 height={1000}
@@ -382,7 +382,7 @@ export default function casas() {
           <div className={styles.box_right}>
             <div className={styles.imagen}>
               <Image
-                src="/imgs/casas/me128.png"
+                src="/imgs/casas/mecamb.png"
                 alt="im-casa"
                 width={600}
                 height={1000}
@@ -431,7 +431,7 @@ export default function casas() {
             </div>
             <div className={styles.imagen}>
               <Image
-                src="/imgs/casas/me128.png"
+                src="/imgs/casas/mecamb.png"
                 alt="im-casa"
                 width={600}
                 height={1000}
@@ -558,7 +558,7 @@ export default function casas() {
           <div className={styles.box_right}>
             <div className={styles.imagen}>
               <Image
-                src="/imgs/casas/me128.png"
+                src="/imgs/casas/mecamb.png"
                 alt="im-casa"
                 width={600}
                 height={1000}
