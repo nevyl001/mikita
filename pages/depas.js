@@ -88,7 +88,7 @@ export default function depas() {
         <div className={styles.box_right}>
           <div className={styles.imagen}>
             <Image
-              src="/imgs/depas/da1.png"
+              src="/imgs/depas/dep1.png"
               alt="im-depas"
               width={444}
               height={726}
@@ -125,7 +125,7 @@ export default function depas() {
           </div>
           <div className={styles.imagen}>
             <Image
-              src="/imgs/depas/da1.png"
+              src="/imgs/depas/dep1.png"
               alt="im-depas"
               width={444}
               height={726}
@@ -229,7 +229,7 @@ export default function depas() {
         <div className={styles.box_right}>
           <div className={styles.imagen}>
             <Image
-              src="/imgs/depas/dist.png"
+              src="/imgs/depas/dep1.png"
               alt="im-depas"
               width={442}
               height={720}
@@ -333,7 +333,7 @@ export default function depas() {
         <div className={styles.box_right}>
           <div className={styles.imagen}>
             <Image
-              src="/imgs/depas/dd2.png"
+              src="/imgs/depas/de2.png"
               alt="im-depa"
               width={438}
               height={714}
@@ -398,7 +398,7 @@ export default function depas() {
           </div>
           <div className={styles.imagen}>
             <Image
-              src="/imgs/depas/dd2.png"
+              src="/imgs/depas/de2.png"
               alt="im-depa"
               width={438}
               height={714}
@@ -511,7 +511,7 @@ export default function depas() {
         <div className={styles.box_right}>
           <div className={styles.imagen}>
             <Image
-              src="/imgs/depas/dd2.png"
+              src="/imgs/depas/de2.png"
               alt="im-depa"
               width={438}
               height={714}
